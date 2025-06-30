@@ -36,8 +36,22 @@ $token = "YOUR_GITHUB_TOKEN_HERE"  # <-- Replace with your actual GitHub Persona
 $remoteName = "origin"
 $commitMsg = "Initial commit"
 
-# Enable long paths (Windows 10+)
-git config --system core.longpaths true
+
+# Enable long paths in Git and Windows (requires admin for system-wide)
+try {
+    git config --system core.longpaths true
+}
+catch {
+    Write-Host "Could not set git longpaths system-wide. Trying for current repo..." -ForegroundColor Yellow
+    git config core.longpaths true
+}
+try {
+    Set-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\FileSystem' -Name 'LongPathsEnabled' -Value 1 -ErrorAction Stop
+    Write-Host "Windows long paths enabled." -ForegroundColor Green
+}
+catch {
+    Write-Host "Could not enable Windows long paths (need admin). Please enable manually if you see path errors." -ForegroundColor Yellow
+}
 
 # Remove any nested .git folders (except root)
 Get-ChildItem -Path . -Recurse -Directory -Force -ErrorAction SilentlyContinue | Where-Object { $_.Name -eq ".git" -and $_.FullName -ne (Join-Path (Get-Location) ".git") } | ForEach-Object { Remove-Item -Recurse -Force $_.FullName }
