@@ -53,8 +53,3 @@
 | 48 | discrete choice analysis of spatial attack sites | (Smith & Brown, 2007) | 0.032 | km square | 4,895 | 637 | grid cell | |
 | 49 | divergent decisionmaking in context neighborhood context shapes effects of physical disorder and spatial knowledge on burglars location choice | (Cai et al., 2024) | 0.958 | km square | 1652 | 1972 | Community | not published in journal |
 | 50 | familiar locations and similar activities examining the contributions of reliable and relevant knowledge in offenders crime location choices | (Curtis-Ham et al., 2025) | 1.2 | km square | 2153 | 38,120 | statistical area | |
-| 51 | | | | | | | | |
-| 52 | | | | | | | | |
-| 55 | | | | | | | | |
-| 56 | | | | | | | | |
-57
