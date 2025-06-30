@@ -1,0 +1,11 @@
+﻿# Ignore system files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.temp
+
+# Ignore R specific files
+.Rhistory
+.RData
+.Rproj.user/
