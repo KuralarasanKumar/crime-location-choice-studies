@@ -8,28 +8,28 @@
 | 4 | Burglar Target Selection: A Cross-national Comparison (statistical local areas - AU) | (Townsley et al., 2015) | 100000 | m² | 158 | 889 | Statistical Local Area (SLA) | Inferred: Average size per SLA = 15,842 km² / 158 SLAs ≈ 100 km². Greater Brisbane GCCSA ≈ 15,842 km² ([en.wikipedia.org](https://en.wikipedia.org/wiki/Economy_of_Brisbane)). SLA count from paper Table 1. |
 | 5 | Target Selection Models with Preference Variation Between Offenders | (Townsley et al., 2016) | 100000 | m² | 158 | 2,844 | Statistical Local Area (SLA) | Inferred: Average size per SLA = 15,842 km² / 158 SLAs ≈ 100 km². Greater Brisbane GCCSA ≈ 15,842 km² ([en.wikipedia.org](https://en.wikipedia.org/wiki/Economy_of_Brisbane)). SLA count from paper Table 1. |
 | 6 | Biting Once Twice: the Influence of Prior on Subsequent Crime Location Choice | (Lammers et al., 2015) | 2.96 | km² | 142 | 12,639 | Postal code area | Mean area per 4-digit Dutch postal code (PC4) is 2.96 km², as reported in the paper. |
-| 7 | Co-offenders' crime location choice: Do co-offending groups commit crimes in their shared awareness space? | (Lammers, 2017) | 2.96 | km | 142 | 3,037 | Postal code area | |
-| 8 | Family Matters: Effects of Family Members’ Residential Areas on Crime Location Choice* | (Menting et al., 2016) | 2.96 | km | 142 | 19.42 | Postal code area | |
-| 9 | A Time for a Crime: Temporal Aspects of Repeat Offenders’ Crime Location Choices | (S. E. M. van Sleeuwen et al., 2018) | 2.96 | km | 142 | 12,639 | Postal code area | |
-| 10 | Burglars blocked by barriers The impact of physical and social barriers on residential burglars target location choices in China | (Xiao et al., 2021) | 2.74 | km | 2,643 | 3.86 | Community | |
-| 11 | Location Choice of Snatching Offenders in Chennai City (Wards) | (Kuralarasan & Bernasco, 2022) | 2.18 | km | 201 | 1,573 | Other administrative unit | |
-| 12 | Burglar Target Selection: A Cross-national Comparison (Super Output Areas - UK) | (Townsley et al., 2015) | 2.04 | km | 131 | 398 | Other administrative unit | |
-| 13 | Awareness×Opportunity: Testing Interactions Between Activity Nodes and Criminal Opportunity in Predicting Crime Location Choice | (Menting, 2018) | 1.68 | km | 76 | 13,088 | Postal code area | |
-| 14 | Crime Feeds on Legal Activities: Daily Mobility Flows Help to Explain Thieves’ Target Location Choices | (Song et al., 2019) | 1.62 | km | 1,616 | 3,436 | Census unit | |
-| 15 | Assessing the influence of prior on subsequent street robbery location choices: A case study in ZG City  China | (Long et al., 2018) | 1.62 | km | 1,973 | 527 | Community | |
-| 16 | Ambient population and surveillance cameras: The guardianship role in street robbers' crime location choice | (Long et al., 2021) | 1.62 | km | 1,971 | 4,358 | Community | |
-| 17 | Do Migrant and Native Robbers Target Different Places? | (Long & Liu, 2021) | 1.62 | km | 1,971 | 4,358 | Neighborhood | |
-| 18 | Do juvenile, young adult, and adult offenders target different places in the Chinese context? | (Long & Liu, 2022) | 1.62 | km | 1,971 | 4,358 | Neighborhood | |
-| 19 | Relationships Between Offenders’ Crime Locations and Different Prior Activity Locations as Recorded in Police Data | (Curtis-Ham et al., 2022a) | 1.2 | km | 2,153 | 38.57 | Census unit statistical area | |
-| 20 | Location Location Location”: Effects of Neighborhood and House Attributes on Burglars’ Target Selection' | (Vandeviver & Bernasco, 2020) | 0.79 | km | 193 | 679 | Neighborhood | |
-| 21 | The Influence of Activity Space and Visiting Frequency on Crime Location Choice: Findings from an Online Self-Report Survey | (Menting et al., 2020) | 0.68 | km | 12,821 | 140 | Neighborhood | |
-| 22 | Right place  right time? Making crime pattern theory time-specific | (S. van Sleeuwen et al., 2021) | 0.66 | km | 71 | 13,305 | Neighborhood | |
-| 23 | How do residential burglars select target areas? : A new approach to the analysis of criminal location choice | (Bernasco & Nieuwbeerta, 2005) | 0.65 | km | 89 | 548 | Neighborhood | |
-| 24 | Co-offending and the Choice of Target Areas in Burglary | (Bernasco, 2006) | 0.65 | km | 89 | 1,174 | Neighborhood | |
-| 25 | Burglar Target Selection: A Cross-national Comparison (NL) | (Townsley et al., 2015) | 0.65 | km | 89 | 1,835 | Neighborhood | |
-| 26 | Effect Attractiveness Opportunity And Accessibility To Burglars On Residential Burglary Rates Of Urban Neighborhoods | (Bernasco & Luykx, 2003) | 0.65 | km | 89 | 26 | Neighborhood | |
-| 27 | Learning where to offend: Effects of past on future burglary locations (UK Census Lower Level Super Output Area (LSOA) | (Bernasco et al., 2015) | 0.51 | km | 1,687 | 3,337 | LSOA | |
-| 28 | Modelling taste heterogeneity regarding offence location choices (Census output area) | (Frith, 2019) | 0.44 | km | 616 | 1,105 | Other administrative unit | |
+| 7 | Co-offenders' crime location choice: Do co-offending groups commit crimes in their shared awareness space? | (Lammers, 2017) | 2.96 | km² | 142 | 3,037 | Postal code area | |
+| 8 | Family Matters: Effects of Family Members’ Residential Areas on Crime Location Choice* | (Menting et al., 2016) | 2.96 | km² | 142 | 19.42 | Postal code area | |
+| 9 | A Time for a Crime: Temporal Aspects of Repeat Offenders’ Crime Location Choices | (S. E. M. van Sleeuwen et al., 2018) | 2.96 | km² | 142 | 12,639 | Postal code area | |
+| 10 | Burglars blocked by barriers The impact of physical and social barriers on residential burglars target location choices in China | (Xiao et al., 2021) | 2.74 | km² | 2,643 | 3.86 | Community | |
+| 11 | Location Choice of Snatching Offenders in Chennai City (Wards) | (Kuralarasan & Bernasco, 2022) | 2.18 | km² | 201 | 1,573 | Other administrative unit | |
+| 12 | Burglar Target Selection: A Cross-national Comparison (Super Output Areas - UK) | (Townsley et al., 2015) | 2.04 | km² | 131 | 398 | Other administrative unit | |
+| 13 | Awareness×Opportunity: Testing Interactions Between Activity Nodes and Criminal Opportunity in Predicting Crime Location Choice | (Menting, 2018) | 1.68 | km² | 76 | 13,088 | Postal code area | |
+| 14 | Crime Feeds on Legal Activities: Daily Mobility Flows Help to Explain Thieves’ Target Location Choices | (Song et al., 2019) | 1.62 | km² | 1,616 | 3,436 | Census unit | |
+| 15 | Assessing the influence of prior on subsequent street robbery location choices: A case study in ZG City  China | (Long et al., 2018) | 1.62 | km² | 1,973 | 527 | Community | |
+| 16 | Ambient population and surveillance cameras: The guardianship role in street robbers' crime location choice | (Long et al., 2021) | 1.62 | km² | 1,971 | 4,358 | Community | |
+| 17 | Do Migrant and Native Robbers Target Different Places? | (Long & Liu, 2021) | 1.62 | km² | 1,971 | 4,358 | Neighborhood | |
+| 18 | Do juvenile, young adult, and adult offenders target different places in the Chinese context? | (Long & Liu, 2022) | 1.62 | km² | 1,971 | 4,358 | Neighborhood | |
+| 19 | Relationships Between Offenders’ Crime Locations and Different Prior Activity Locations as Recorded in Police Data | (Curtis-Ham et al., 2022a) | 1.2 | km² | 2,153 | 38.57 | Census unit statistical area | |
+| 20 | Location Location Location”: Effects of Neighborhood and House Attributes on Burglars’ Target Selection' | (Vandeviver & Bernasco, 2020) | 0.79 | km² | 193 | 679 | Neighborhood | |
+| 21 | The Influence of Activity Space and Visiting Frequency on Crime Location Choice: Findings from an Online Self-Report Survey | (Menting et al., 2020) | 0.68 | km² | 12,821 | 140 | Neighborhood | |
+| 22 | Right place  right time? Making crime pattern theory time-specific | (S. van Sleeuwen et al., 2021) | 0.66 | km² | 71 | 13,305 | Neighborhood | |
+| 23 | How do residential burglars select target areas? : A new approach to the analysis of criminal location choice | (Bernasco & Nieuwbeerta, 2005) | 0.65 | km² | 89 | 548 | Neighborhood | |
+| 24 | Co-offending and the Choice of Target Areas in Burglary | (Bernasco, 2006) | 0.65 | km² | 89 | 1,174 | Neighborhood | |
+| 25 | Burglar Target Selection: A Cross-national Comparison (NL) | (Townsley et al., 2015) | 0.65 | km² | 89 | 1,835 | Neighborhood | |
+| 26 | Effect Attractiveness Opportunity And Accessibility To Burglars On Residential Burglary Rates Of Urban Neighborhoods | (Bernasco & Luykx, 2003) | 0.65 | km² | 89 | 26 | Neighborhood | |
+| 27 | Learning where to offend: Effects of past on future burglary locations (UK Census Lower Level Super Output Area (LSOA) | (Bernasco et al., 2015) | 0.51 | km² | 1,687 | 3,337 | LSOA | |
+| 28 | Modelling taste heterogeneity regarding offence location choices (Census output area) | (Frith, 2019) | 0.44 | km² | 616 | 1,105 | Other administrative unit | |
 | 29 | The usefulness of past crime data as an attractiveness index for residential burglars | (Hanayama et al., 2018) | 500 | m | 1,134 | 369 | Grid cell | |
 | 30 | Adolescent offenders' current whereabouts predict locations of their future crime | (Bernasco, 2019) | 200 | m | 4,558 | 5,092 | Grid cell | |
 | 31 | Where Do Dealers Solicit Customers and Sell Them Drugs | (Bernasco & Jacques, 2015) | 103 | m | 262 | 50 | Street segment | |
@@ -46,8 +46,8 @@
 | 42 | Modelling the spatial decision making of terrorists: The discrete choice approach | (Marchment & Gill, 2019) | 0.129 | km² | 890 | ... | Output area | Inferred: Average size per Small Area = 115 km² / 890 units ≈ 0.13 km². Belfast’s land-area (≈ 115 km²) was divided by the 890 census Small Areas used in the terrorist-choice model. The paper does not report unit size directly.<br>Land-area source: Northern Ireland Statistics & Research Agency — https://www.nisra.gov.uk/ |
 | 43 | Traveling Alone or Together? Neighborhood Context on Individual and Group Juvenile and Adult Burglary Decisions | (A. Chamberlain et al., 2022) | 1.5 | kilometer square | 304 | 4.92 | Neighborhood | |
 | 44 | The Importance of Importance Sampling: Exploring Methods of Sampling from Alternatives in Discrete Choice Models of Crime Location Choice | (Curtis-Ham et al., 2022b) | 122.3 | km² | 2,153 | 4,500,000 | Census Statistical Area | Inferred: Average size per SA2 = 263 310 km² / 2 153 SA2s ≈ 122.26 km². New Zealand’s land-area (≈ 263 310 km²) was divided by the national set of SA2 units. The paper does not report unit size directly.<br>Land-area source: Stats NZ — https://www.stats.govt.nz/ |
-| 45 | Investigating the effect of people on the street and streetscape physical environment on the location choice of street theft crime offenders using street view images and a discrete spatial choice model | (Yue et al., 2023) | 1,558 | km | 1636 | 1540 | Community | |
-| 46 | Graffiti Writers Choose Locations That Optimize Exposure | (Kuralarasa et al, 2024) | 154.8356 | m | 2,233 | 12,655 | Street segment | |
+| 45 | Investigating the effect of people on the street and streetscape physical environment on the location choice of street theft crime offenders using street view images and a discrete spatial choice model | (Yue et al., 2023) | 1558 | m | 1636 | 1540 | Community | |
+| 46 | Graffiti Writers Choose Locations That Optimize Exposure | (Kuralarasa et al, 2024) | 844.91 | m² | 2,233 | 12,655 | Street segment | Mean area per segment calculated from GIS: 844.91 m². |
 | 47 | Situating Crime Pattern Theory Into The Explanation Of Co-Offending: Considering Area-Level Convergence Spaces, https://doi.org/10.1093/bjc/azab093 | (Rowan, Appleby & McGloin, 2022) | 14 | square miles | 653 | 6,249 | Census block group | |
 | 48 | discrete choice analysis of spatial attack sites | (Smith & Brown, 2007) | 0.032 | km square | 4,895 | 637 | grid cell | |
 | 49 | divergent decisionmaking in context neighborhood context shapes effects of physical disorder and spatial knowledge on burglars location choice | (Cai et al., 2024) | 0.958 | km square | 1652 | 1972 | Community | not published in journal |
