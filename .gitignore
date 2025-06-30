@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# R specific
 .Rproj.user/
 .Rhistory
@@ -10,3 +11,16 @@ Thumbs.db
 *~
 *.bak
 *.tmp
+=======
+﻿# Ignore system files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.temp
+
+# Ignore R specific files
+.Rhistory
+.RData
+.Rproj.user/
+>>>>>>> 1888664c1ca1c5414e3c2f904d1864606bc6ed59
