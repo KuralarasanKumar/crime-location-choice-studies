@@ -2,28 +2,28 @@
 
 | S. No | Title of the study | Citation | Size of the unit | Unit | No of units | No of incidents | Name of the unit | Notes |
 |-------|-------------------|----------|-----------------|------|-------------|----------------|----------------|-------|
-| 1 | Go where the money is: Modeling street robbers' location choices | (Bernasco et al., 2013) | 19680 | m | 24,594 | 12,938 | Census block | |
-| 2 | Do Street Robbery Location Choices Vary Over Time of Day or Day of Week? A Test in Chicago | (Bernasco et al., 2017) | 19680 | m | 24,594 | 12,938 | Census block | |
-| 3 | Formal evaluation of the impact of barriers and connectors on residential burglars' macro-level offending location choices | (Clare et al., 2009) | 6.7 | km | 291 | 1,761 | Residential suburb | |
-| 4 | Burglar Target Selection: A Cross-national Comparison (statistical local areas - AU) | (Townsley et al., 2015) | 8.48 | km | 158 | 889 | Other administrative unit | |
+| 1 | Go where the money is: Modeling street robbers' location choices | (Bernasco et al., 2013) | 19680 | m | 24,594 | 12,938 | Census block | Inferred: Average size per block group = 455 km² / 304 block groups ≈ 1.50 km²<br><br>Tampa’s land area ≈ 455 km² was used to infer the average block group size. The paper does not report unit size directly. |
+| 2 | Do Street Robbery Location Choices Vary Over Time of Day or Day of Week? A Test in Chicago | (Bernasco et al., 2017) | 19680 | m | 24,594 | 12,938 | Census block | Inferred: Average size per block group = 455 km² / 334 block groups ≈ 1.36 km²<br><br>Tampa’s land area (~455 km²) by the number of block groups: |
+| 3 | Formal evaluation of the impact of barriers and connectors on residential burglars' macro-level offending location choices | (Clare et al., 2009) | 6.7 | km | 291 | 1,761 | Residential suburb | Inferred: Average size per LSOA = 1 572 km² / 4 765 LSOAs ≈ 0.33 km²<br><br>Greater London’s land area ≈ 1 572 km² was used to infer the average LSOA size. The paper does not report unit size directly. |
+| 4 | Burglar Target Selection: A Cross-national Comparison (statistical local areas - AU) | (Townsley et al., 2015) | 8.48 | km | 158 | 889 | Other administrative unit | Inferred: Average size per census tract = 589 km² / 844 ≈ 0.70 km²<br><br>The land area of Chicago is approximately 589 km² |
 | 5 | Target Selection Models with Preference Variation Between Offenders | (Townsley et al., 2016) | 8.48 | km | 158 | 2,844 | statistical local areas | |
-| 6 | Biting Once Twice: the Influence of Prior on Subsequent Crime Location Choice | (Lammers et al., 2015) | 2.96 | km | 142 | 12,639 | Postal code area | |
+| 6 | Biting Once Twice: the Influence of Prior on Subsequent Crime Location Choice | (Lammers et al., 2015) | 2.96 | km | 142 | 12,639 | Postal code area | Inferred: Average size per postcode = 20.000 km² / 4 postal codes ≈ 5.00 km² |
 | 7 | Co-offenders' crime location choice: Do co-offending groups commit crimes in their shared awareness space? | (Lammers, 2017) | 2.96 | km | 142 | 3,037 | Postal code area | |
-| 8 | Family Matters: Effects of Family Members' Residential Areas on Crime Location Choice | (Menting et al., 2016) | 2.96 | km | 142 | 19,42 | Postal code area | |
-| 9 | A Time for a Crime: Temporal Aspects of Repeat Offenders' Crime Location Choices | (S. E. M. van Sleeuwen et al., 2018) | 2.96 | km | 142 | 12,639 | Postal code area | |
+| 8 | Family Matters: Effects of Family Members’ Residential Areas on Crime Location Choice* | (Menting et al., 2016) | 2.96 | km | 142 | 19.42 | Postal code area | |
+| 9 | A Time for a Crime: Temporal Aspects of Repeat Offenders’ Crime Location Choices | (S. E. M. van Sleeuwen et al., 2018) | 2.96 | km | 142 | 12,639 | Postal code area | |
 | 10 | Burglars blocked by barriers The impact of physical and social barriers on residential burglars target location choices in China | (Xiao et al., 2021) | 2.74 | km | 2,643 | 3.86 | Community | |
 | 11 | Location Choice of Snatching Offenders in Chennai City (Wards) | (Kuralarasan & Bernasco, 2022) | 2.18 | km | 201 | 1,573 | Other administrative unit | |
 | 12 | Burglar Target Selection: A Cross-national Comparison (Super Output Areas - UK) | (Townsley et al., 2015) | 2.04 | km | 131 | 398 | Other administrative unit | |
 | 13 | Awareness×Opportunity: Testing Interactions Between Activity Nodes and Criminal Opportunity in Predicting Crime Location Choice | (Menting, 2018) | 1.68 | km | 76 | 13,088 | Postal code area | |
-| 14 | Crime Feeds on Legal Activities: Daily Mobility Flows Help to Explain Thieves' Target Location Choices | (Song et al., 2019) | 1.62 | km | 1,616 | 3,436 | Census unit | |
-| 15 | Assessing the influence of prior on subsequent street robbery location choices: A case study in ZG City, China | (Long et al., 2018) | 1.62 | km | 1,973 | 527 | Community | |
+| 14 | Crime Feeds on Legal Activities: Daily Mobility Flows Help to Explain Thieves’ Target Location Choices | (Song et al., 2019) | 1.62 | km | 1,616 | 3,436 | Census unit | |
+| 15 | Assessing the influence of prior on subsequent street robbery location choices: A case study in ZG City  China | (Long et al., 2018) | 1.62 | km | 1,973 | 527 | Community | |
 | 16 | Ambient population and surveillance cameras: The guardianship role in street robbers' crime location choice | (Long et al., 2021) | 1.62 | km | 1,971 | 4,358 | Community | |
 | 17 | Do Migrant and Native Robbers Target Different Places? | (Long & Liu, 2021) | 1.62 | km | 1,971 | 4,358 | Neighborhood | |
 | 18 | Do juvenile, young adult, and adult offenders target different places in the Chinese context? | (Long & Liu, 2022) | 1.62 | km | 1,971 | 4,358 | Neighborhood | |
-| 19 | Relationships Between Offenders' Crime Locations and Different Prior Activity Locations as Recorded in Police Data | (Curtis-Ham et al., 2022a) | 1.2 | km | 2,153 | 38.57 | Census unit statistical area | |
-| 20 | Location Location Location": Effects of Neighborhood and House Attributes on Burglars' Target Selection' | (Vandeviver & Bernasco, 2020) | 0.79 | km | 193 | 679 | Neighborhood | |
+| 19 | Relationships Between Offenders’ Crime Locations and Different Prior Activity Locations as Recorded in Police Data | (Curtis-Ham et al., 2022a) | 1.2 | km | 2,153 | 38.57 | Census unit statistical area | |
+| 20 | Location Location Location”: Effects of Neighborhood and House Attributes on Burglars’ Target Selection' | (Vandeviver & Bernasco, 2020) | 0.79 | km | 193 | 679 | Neighborhood | |
 | 21 | The Influence of Activity Space and Visiting Frequency on Crime Location Choice: Findings from an Online Self-Report Survey | (Menting et al., 2020) | 0.68 | km | 12,821 | 140 | Neighborhood | |
-| 22 | Right place, right time? Making crime pattern theory time-specific | (S. van Sleeuwen et al., 2021) | 0.66 | km | 71 | 13,305 | Neighborhood | |
+| 22 | Right place  right time? Making crime pattern theory time-specific | (S. van Sleeuwen et al., 2021) | 0.66 | km | 71 | 13,305 | Neighborhood | |
 | 23 | How do residential burglars select target areas? : A new approach to the analysis of criminal location choice | (Bernasco & Nieuwbeerta, 2005) | 0.65 | km | 89 | 548 | Neighborhood | |
 | 24 | Co-offending and the Choice of Target Areas in Burglary | (Bernasco, 2006) | 0.65 | km | 89 | 1,174 | Neighborhood | |
 | 25 | Burglar Target Selection: A Cross-national Comparison (NL) | (Townsley et al., 2015) | 0.65 | km | 89 | 1,835 | Neighborhood | |
@@ -34,10 +34,10 @@
 | 30 | Adolescent offenders' current whereabouts predict locations of their future crime | (Bernasco, 2019) | 200 | m | 4,558 | 5,092 | Grid cell | |
 | 31 | Where Do Dealers Solicit Customers and Sell Them Drugs | (Bernasco & Jacques, 2015) | 103 | m | 262 | 50 | Street segment | |
 | 32 | Where offenders choose to attack: A discrete choice model of robberies in Chicago | (Bernasco & Block, 2009) | 0.7 | kilometer square | 844 | 12,872 | Census tract | |
-| 33 | Relative Difference and Burglary Location: Can Ecological Characteristics of a Burglar's Home Neighborhood Predict Offense Location? | (A. W. Chamberlain & Boggess, 2016) | 0.33 | kilometer square | 334 | 5.182 | Neighborhood | |
+| 33 | Relative Difference and Burglary Location: Can Ecological Characteristics of a Burglar’s Home Neighborhood Predict Offense Location? | (A. W. Chamberlain & Boggess, 2016) | 0.33 | kilometer square | 334 | 5.182 | Neighborhood | |
 | 34 | A Sentimental Journey To Crime : Effects of Residential History on Crime Location Choice | (Bernasco, 2010a) | (see quote) | postal code area | ~4,000 | 7,179 | Postal code area | |
 | 35 | Modeling micro-level crime location choice: Application of the discrete choice framework to crime at places | (Bernasco, 2010b) | 0.02 | sq km | 23,984 | 1,311 | Postal code area | |
-| 36 | Effects of Residential history on Commercial Robbers' Crime Location Choices | (Bernasco & Kooistra, 2010) | (see quote) | postal code area | 4,006 | 1,539 | Postal code area | |
+| 36 | Effects of Residential history on Commercial Robbers' Crime Location Choices | (Bernasco & Kooistra, 2010) | 5 | kilometer square | 4,006 | 1,539 | Postal code area | |
 | 37 | Role of the Street Network in Burglars' Spatial Decision-Making | (Frith et al., 2017) | 0.29 | km² | 510 | ... | Output area | |
 | 38 | Target Choice During Extreme Events: A Discrete Spatial Choice Model of the 2011 London Riots (LSOA) | (Baudains et al., 2013) | 0.33 | kilometer square | 4,765 | 2,299 | LSOA | |
 | 39 | Testing Ecological Theories of Offender Spatial Decision Making Using a Discrete Choice Model (LSOA) | (Johnson & Summers, 2015) | (see quote) | LSOA | 198 | 721 | LSOA | |
@@ -51,5 +51,5 @@
 | 47 | Situating Crime Pattern Theory Into The Explanation Of Co-Offending: Considering Area-Level Convergence Spaces, https://doi.org/10.1093/bjc/azab093 | (Rowan, Appleby & McGloin, 2022) | 14 | square miles | 653 | 6,249 | Census block group | |
 | 48 | discrete choice analysis of spatial attack sites | (Smith & Brown, 2007) | 0.032 | km square | 4,895 | 637 | grid cell | |
 | 49 | divergent decisionmaking in context neighborhood context shapes effects of physical disorder and spatial knowledge on burglars location choice | (Cai et al., 2024) | 0.958 | km square | 1652 | 1972 | Community | not published in journal |
-| 50 | familiar locations and similar activities examining the contributions of reliable and relevant knowledge in offenders crime location choices | (Curtis-Ham et al., 2025) | 1.2 | km square | 2153 | 38,120 | statistical area | |
-| 51 | spatial analysis with preference specification of latent decision makers for criminal event prediction | (Xue & Brown, 2006) | (see quote) | block group | 2,517 | ~1200 | grid cell | "The subregions shown in Fig. 1 are block groups, which are the smallest areas, for which census counts are recorded." (Page 7) |
+| 50 | familiar locations and similar activities examining the contributions of reliable and relevant knowledge in offenders crime location choices | (Curtis-Ham et al., 2025) | 1.2 | km squre | 2153 | 38,120 | statistical area | not publisjed in jouranl |
+| 51 | spatial analysis with preference specification of latent decision makers for criminal event prediction | (Xue & Brown, 2006) | not reported |  | 2 517 | ~1200 | grid cell | |
