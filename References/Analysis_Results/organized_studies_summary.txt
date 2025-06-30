@@ -1,8 +1,0 @@
-﻿# ORGANIZED TARGET STUDIES SUMMARY
-
-Created on 2025-06-29 06:41:57
-
-Total Studies Found: 1 out of 50
-
-- S01: Go where the money is: Modeling street robbers' location choices (Bernasco et al., 2013)
-
