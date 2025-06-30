@@ -62,7 +62,12 @@ if (git remote | Select-String $remoteName) {
 $repoUrlWithToken = $repoUrl -replace "https://", "https://$token@"
 git remote add $remoteName $repoUrlWithToken
 
+# Pull remote changes first to avoid push rejection
+Write-Host "Pulling remote changes (allowing unrelated histories)..." -ForegroundColor Yellow
+git pull $remoteName main --allow-unrelated-histories
+
 # Push to GitHub
+Write-Host "Pushing to GitHub..." -ForegroundColor Green
 git branch -M main
 git push -u $remoteName main
 
