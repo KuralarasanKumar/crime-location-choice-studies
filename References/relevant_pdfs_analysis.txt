@@ -1,0 +1,61 @@
+# Analysis of PDFs that match your Crime Location Choice Studies table
+
+## RELEVANT PDFs (KEEP THESE):
+
+Based on your table entries, these PDFs should be kept:
+
+### Bernasco Papers (Multiple matches):
+- Bernasco - 2006 - Co‐offending and the choice of target areas in bur.pdf (Table S.No 24)
+- Bernasco - 2010 - A Sentimental Journey To Crime  Effects of Reside.pdf (Table S.No 34)
+- Bernasco - 2010 - Modeling Micro-Level Crime Location Choice Applic.pdf (Table S.No 35)
+- Bernasco - 2019 - Adolescent Offenders' Current Whereabouts Predict .pdf (Table S.No 30)
+- Bernasco and Block - 2009 - Where offenders choose to attack A discrete choic-1.pdf (Table S.No 32)
+- Bernasco and Kooistra - 2010 - Effects of residential history on commercial robbe.pdf (Table S.No 36)
+- Bernasco and Luykx - 2003 - EFFECTS OF ATTRACTIVENESS, OPPORTUNITY AND ACCESSI.pdf (Table S.No 26)
+- Bernasco et al. - 2013 - Go where the money is modeling street robbers' lo.pdf (Table S.No 1)
+- Bernasco et al. - 2015 - Learning where to offend Effects of past on futur.pdf (Table S.No 27)
+- Bernasco et al. - 2017 - Social Interactions and Crime Revisited An Invest.pdf (Table S.No 2)
+
+### Curtis-Ham Papers:
+- Curtis-Ham et al. - 2022 - The Importance of Importance Sampling Exploring M.pdf (Table S.No 44)
+- Curtis-Ham et al. - 2025 - Familiar Locations and Similar Activities Examining the Contributions of Reliable and Relevant Know.pdf (Table S.No 50)
+- Curtis-Ham et al. - Relationships Between Offenders' Crime Locations a.pdf (Table S.No 19)
+
+### Frith Papers:
+- Frith - 2019 - Modelling taste heterogeneity regarding offence lo.pdf (Table S.No 28)
+- Frith et al. - 2017 - ROLE OF THE STREET NETWORK IN BURGLARS' SPATIAL DE.pdf (Table S.No 37)
+
+### Kuralarasan Papers:
+- Kuralarasan and Bernasco - 2022 - Location Choice of Snatching Offenders in Chennai .pdf (Table S.No 11)
+- Kuralarasan et al. - 2024 - Graffiti Writers Choose Locations That Optimize Exposure.pdf (Table S.No 46)
+
+### Langton and Steenbeek:
+- Langton and Steenbeek - 2017 - Residential burglary target selection An analysis.pdf (Table S.No 41)
+
+### Long Papers:
+- Long and Liu - 2021 - Do Migrant and Native Robbers Target Different Pla.pdf (Table S.No 17)
+
+### Marchment and Gill:
+- Marchment and Gill - 2019 - Modelling the spatial decision making of terrorist.pdf (Table S.No 42)
+
+### Smith and Brown:
+- Smith and Brown - 2007 - Discrete choice analysis of spatial attack sites.pdf (Table S.No 48)
+
+### Townsley Papers:
+- Townsley et al. - 2015 - Burglar Target Selection A Cross-national Compari.pdf (Table S.No 4, 12, 25, 5)
+
+### Vandeviver Papers:
+- Vandeviver and Bernasco - 2020 - Location, Location, Location Effects of Neighbo.pdf (Table S.No 20)
+
+### Xue and Brown:
+- Xue and Brown - 2006 - Spatial analysis with preference specification of latent decision makers for criminal event predicti.pdf (Table S.No 54)
+
+## TOTAL RELEVANT PDFs: Approximately 25-30 files
+
+## IRRELEVANT PDFs (DELETE THESE):
+All other PDFs in the folder (approximately 900+ files) that are not related to crime location choice studies, including:
+- Graffiti art and culture studies
+- Ecological and biological studies
+- General criminology not related to location choice
+- Archaeological studies
+- Social studies unrelated to crime location choice

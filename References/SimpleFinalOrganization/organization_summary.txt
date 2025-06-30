@@ -1,0 +1,31 @@
+﻿# TARGET STUDIES ORGANIZATION SUMMARY
+
+Created on 2025-06-29 06:43:26
+
+Successfully organized 21 out of 21 target studies:
+
+- S01_Bernasco_2013_Go_where_the_money_is
+- S02_Bernasco_2017_Do_Street_Robbery
+- S04-12-25_Townsley_2015_Burglar_Target_Selection
+- S11_Kuralarasan_2022_Location_Choice
+- S13_Menting_2018_Awareness_Opportunity
+- S17_Long_Liu_2021_Migrant_Native_Robbers
+- S19_Curtis-Ham_2022_Relationships
+- S20_Vandeviver_2020_Location_Location
+- S27_Bernasco_2015_Learning_where_to_offend
+- S28_Frith_2019_Modelling_taste
+- S30_Bernasco_2019_Adolescent_offenders
+- S32_Bernasco_Block_2009_Where_offenders_choose
+- S33_Chamberlain_2016_Relative_Difference
+- S36_Bernasco_Kooistra_2010_Effects_Residential
+- S41_Langton_Steenbeek_2017_Residential_burglary
+- S42_Marchment_Gill_2019_spatial_decision_making
+- S43_Chamberlain_2022_Traveling_Alone
+- S44_Curtis-Ham_2022_Importance_Sampling
+- S47_Rowan_2022_Crime_Pattern_Theory
+- S48_Smith_Brown_2007_spatial_attack_sites
+- S50_Curtis-Ham_2025_familiar_locations
+
+Missing studies:
+
+
