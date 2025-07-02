@@ -1,0 +1,51 @@
+file_id,filename,unit_name,unit_size,unit_count,incident_count,unit_size_source,unit_count_source,incident_count_source
+01,01_go_where_the_money_is_modeling_street_robbers_lo.pdf,That Are Meaningful To,"19,680m2",142,13000,"19,680m2",142 blocks,"13,000 robberies"
+02,02_do_street_robbery_location_choices_vary_over_time.pdf,,,,,,,
+03,03_formal_evaluation_of_the_impact_of_barriers_and_connectors.pdf,For Burglary Analysis In,6.76 km2 with a mean,54,1761,6.76 km2 with a mean,54 suburbs,"1,761 offences"
+04,04_burglar_target_selection_a_cross_national_compari.pdf,(E,,3652,889,,"3,652 households",889 offenses
+05,05_target_selection_models_with_preference_variation.pdf,Neighborhood,,,,,,
+06,06_biting_once_twice_the_influence_of_prior_on_subs.pdf,(Bernasco,sizeof 2.96km2,,2009,sizeof 2.96km2,,2009 offenses
+07,07_co-offenders_crime_location_choice.pdf,Crime Committed By  Group  Offenders,"postal code areas, which have an average size of 2.96 km2",6,6283,"postal code areas, which have an average size of 2.96 km2",number of areas known to this group as a whole: G = 6,"6,283 crimes"
+08,08_family_matters_effects_of_family_members_residen.pdf,Postal code area,area size of 2.96 km2,,19420,area size of 2.96 km2,,"19,420 offenses"
+09,09_a_time_for_a_crime_temporal_aspects_of_repeat_off.pdf,Census block,area size of about 2.96 km2,,2009,area size of about 2.96 km2,,2009 offenses
+10,10_burglars_blocked_by_barriers.pdf,Analysis,,2643,2778,,2643 communities,2778 burglaries
+11,11_location_choice_of_snatching_offenders_in_chennai.pdf,Analysis In This Study,,201,1573,,201 wards,1573 offenses
+12,12_burglar_target_selection_a_cross_national_compari.pdf,(E,,3652,889,,"3,652 households",889 offenses
+13,13_awareness_x_opportunity_testing_interactions_betw.pdf,Analysis,1.68 km2,110,172,1.68 km2,110 neighbourhoods,172 offences
+14,14_crime_feeds_on_legal_activities_daily_mobility_fl.pdf,Census unit,size of census units is 1.62 km2,1616,595,size of census units is 1.62 km2,1616 communities,595 incidents
+15,15_assessing_the_influence_of_prior_on_subsequent_street_robbery_location_choices.pdf,Neighborhood,sizeof1.62km2,1973,2285,sizeof1.62km2,1973 communities,2285 robberies
+16,16_ambient_population_and_surveillance_cameras.pdf,Grid cell,268 HANAYAMAETAL. ofresidentialunit,,,268 HANAYAMAETAL. ofresidentialunit,,
+17,17_do_migrant_and_native_robbers_target_different_places.pdf,Neighborhood,,,,,,
+18,18_do_juvenile_young_adult_and_adult_offenders_target_different_places.pdf,Different,area of 1.62 km2,103943,,area of 1.62 km2,103943 areas,
+19,19_relationships_between_offenders_crime_locations.pdf,Crime Committed By  Group  Offenders,"postal code areas, which have an average size of 2.96 km2",6,6283,"postal code areas, which have an average size of 2.96 km2",number of areas known to this group as a whole: G = 6,"6,283 crimes"
+20,20_location_location_location_effects_of_neighbo.pdf,(Bernasco 2010A,156 km2,193,679,156 km2,193 neighborhoods,679 burglaries
+21,21_the_influence_of_activity_space_and_visiting_frequ.pdf,Analysis,0.68 km2 (mean,12821,140,0.68 km2 (mean,"12,821 areas",140 offences
+22,22_right_place_right_time_making_crime_pattern_theory.pdf,Analysis,0.66 km2 (mean,13304,71,0.66 km2 (mean,"13,304 neighbourhoods",71 offences
+23,23_how_do_residential_burglars_select_target_areas.pdf,Used,,89,548,,89 neighbourhoods,548 burglaries
+24,24_cooffending_and_the_choice_of_target_areas_in_bur.pdf,Burglary,,99,1642,,99 properties,1642 Burglaries
+25,25_burglar_target_selection_a_cross_national_compari.pdf,(E,,3652,889,,"3,652 households",889 offenses
+26,26_effect_attractiveness_opportunity_and_accessibility.pdf,Neighborhood,0.65 square kilometers,94,,0.65 square kilometers,94 neighborhoods,
+27,27_learning_where_to_offend_effects_of_past_on_future_burglary_locations.pdf,Analysis,,600,548,,600 households,analyzed 548 burglaries
+28,28_modelling_taste_heterogeneity_regarding_offence_lo.pdf,Used As Alternatives As Much Smaller,15.4km2 (mean,2001,3,15.4km2 (mean,2001 areas,3 offences
+30,30_adolescent_offenders_current_whereabouts_predict.pdf,Thefindingsfrompriorstudies,203km2,,,203km2,,
+31,31_where_do_dealers_solicit_customers_and_sell_them_drugs.pdf,(Mccord,postal code. This 1 km2,,,postal code. This 1 km2,,
+32,32_where_offenders_choose_to_attack_a_discrete_choice_model.pdf,Applies To,,21,105,,21 tracts,105 robberies
+33,33_relative_difference_and_burglary_location.pdf,Neighborhood,,,5182,,,"sample includes 5,182 incidents"
+34,34_a_sentimental_journey_to_crime_effects_of_reside.pdf,Postal code area,2 square miles,2,7179,2 square miles,2 areas,"7,179 offenses"
+35,35_modeling_micro-level_crime_location_choice_applic.pdf,Area  Only 18 Residential,400 sq. km,9,1871,400 sq. km,9 blocks,"1,871 burglaries"
+36,36_effects_of_residential_history_on_commercial_robbe.pdf,Because It Approximates  Area One Would Expect People To Be,,,4657,,,4657 robberies
+37,37_role_of_the_street_network_in_burglars_spatial_de.pdf,Street segment,150 km2,,70,150 km2,,70 offenses
+38,38_target_choice_during_extreme_events_a_discrete_sp.pdf,In  Discrete Choice,250m2 withineach,,,250m2 withineach,,
+39,39_testing_ecological_theories_of_offender_spatial_de.pdf,Selected Was  U,,2380,721,,"2,380 households",721 crimes
+40,40_a_discrete_spatial_choice_model_of_burglary_target.pdf,Available,"3,000 km²",,650,"3,000 km²",,650 burglaries
+41,41_residential_burglary_target_selection_property_level.pdf,Property,7 hadamean,550,,7 hadamean,550 properties,
+42,42_modelling_the_spatial_decision_making_of_terrorist.pdf,Hague,2.25km2,5,,2.25km2,5 Wards,
+43,43_traveling_alone_or_together_neighborhood_context.pdf,Block group,,304,3269,,304 neighborhoods,"3,269 incidents"
+44,44_the_importance_of_importance_sampling_exploring_m.pdf,(E,0.063km2,2,1000,0.063km2,2 areas,"1,000 crimes"
+45,45_investigating_the_effect_of_people_on_the_street.pdf,Analysis,,1636,1540,,1636 communities,1540 crimes
+46,46_graffiti_writers_choose_locations_that_optimize_exposure.pdf,Analysis,10 m2,10,,10 m2,10 units,
+47,47_situating_crime_pattern_theory_into_the_explanation.pdf,Census block,14 square miles,,6249,14 square miles,,"During this time period, there were a total of N = 6,249 incidents"
+48,48_discrete_choice_analysis_of_spatial_attack_sites_1.pdf,Grid cell,,,,,,
+49,49_divergent_decision-making_in_context_neighborhood.pdf,To Smaller Units Is Not Computationally,2.813km2. After excluding communit,2643,2024,2.813km2. After excluding communit,"2,643 communities",2024 incidents
+50,50_familiar_locations_and_similar_activities_examining.pdf,Research,2.2km2,,,2.2km2,,
+51,51_spatial_analysis_with_preference_specification_of.pdf,Property,,,,,,
