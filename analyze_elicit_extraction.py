@@ -39,69 +39,74 @@ print(f"Key extraction columns:")
 for col in ['Main infor', 'Main findings', 'Methodology', 'Variables ', 'core infor']:
     if col in df_elicit.columns:
         non_empty = df_elicit[col].notna().sum()
-        print(f"  {col}: {non_empty}/{len(df_elicit)} studies ({non_empty/len(df_elicit)*100:.1f}%)")
+        print(
+            f"  {col}: {non_empty}/{len(df_elicit)} studies ({non_empty/len(df_elicit)*100:.1f}%)")
 
 print(f"\n{'='*60}")
 print("DETAILED INFORMATION EXTRACTION FROM ELICIT")
 print(f"{'='*60}")
 
 # Function to extract specific information from the "Main infor" field
+
+
 def extract_info_from_main_infor(text):
     """Extract structured information from the Main infor field"""
     if pd.isna(text):
         return {}
-    
+
     info = {}
-    
+
     # Extract SUoA size
     suoa_pattern = r"Size of the spatial unit.*?SUoA\):?\s*([^-\n]+)"
     suoa_match = re.search(suoa_pattern, text, re.IGNORECASE | re.DOTALL)
     if suoa_match:
         info['SUoA_Description'] = suoa_match.group(1).strip()
-    
+
     # Extract study area
     area_pattern = r"Total area of.*?study site:?\s*([^-\n]+)"
     area_match = re.search(area_pattern, text, re.IGNORECASE | re.DOTALL)
     if area_match:
         info['Study_Area'] = area_match.group(1).strip()
-    
+
     # Extract country
     country_pattern = r"Country.*?conducted:?\s*([^-\n]+)"
     country_match = re.search(country_pattern, text, re.IGNORECASE | re.DOTALL)
     if country_match:
         info['Country'] = country_match.group(1).strip()
-    
+
     # Extract crime type
     crime_pattern = r"Type of crime analyzed:?\s*([^-\n]+)"
     crime_match = re.search(crime_pattern, text, re.IGNORECASE | re.DOTALL)
     if crime_match:
         info['Crime_Type'] = crime_match.group(1).strip()
-    
+
     # Extract model type
     model_pattern = r"Type of discrete choice model.*?:?\s*([^-\n]+)"
     model_match = re.search(model_pattern, text, re.IGNORECASE | re.DOTALL)
     if model_match:
         info['Model_Type'] = model_match.group(1).strip()
-    
+
     # Extract sampling approach
     sampling_pattern = r"Sampling approach.*?:?\s*([^-\n]+)"
-    sampling_match = re.search(sampling_pattern, text, re.IGNORECASE | re.DOTALL)
+    sampling_match = re.search(
+        sampling_pattern, text, re.IGNORECASE | re.DOTALL)
     if sampling_match:
         info['Sampling_Approach'] = sampling_match.group(1).strip()
-    
+
     # Extract population info
     pop_pattern = r"Population per spatial unit:?\s*([^-\n]+)"
     pop_match = re.search(pop_pattern, text, re.IGNORECASE | re.DOTALL)
     if pop_match:
         info['Population_Per_Unit'] = pop_match.group(1).strip()
-    
+
     # Extract data sources
     data_pattern = r"Data sources used:?\s*([^-\n]+)"
     data_match = re.search(data_pattern, text, re.IGNORECASE | re.DOTALL)
     if data_match:
         info['Data_Sources'] = data_match.group(1).strip()
-    
+
     return info
+
 
 # Extract structured information from all studies
 elicit_structured = []
@@ -112,16 +117,16 @@ for idx, row in df_elicit.iterrows():
         'Year': row.get('Year', ''),
         'Filename': row.get('Filename', '')
     }
-    
+
     # Extract from Main infor field
     main_info = extract_info_from_main_infor(row.get('Main infor', ''))
     study_info.update(main_info)
-    
+
     # Store raw fields for analysis
     study_info['Raw_Main_Infor'] = row.get('Main infor', '')
     study_info['Raw_Variables'] = row.get('Variables ', '')
     study_info['Raw_Methodology'] = row.get('Methodology', '')
-    
+
     elicit_structured.append(study_info)
 
 df_elicit_clean = pd.DataFrame(elicit_structured)
@@ -129,50 +134,55 @@ df_elicit_clean = pd.DataFrame(elicit_structured)
 print(f"Structured extraction from {len(df_elicit_clean)} studies:")
 
 # Analyze extraction success rates
-extraction_fields = ['SUoA_Description', 'Study_Area', 'Country', 'Crime_Type', 
-                    'Model_Type', 'Sampling_Approach', 'Population_Per_Unit', 'Data_Sources']
+extraction_fields = ['SUoA_Description', 'Study_Area', 'Country', 'Crime_Type',
+                     'Model_Type', 'Sampling_Approach', 'Population_Per_Unit', 'Data_Sources']
 
 for field in extraction_fields:
     if field in df_elicit_clean.columns:
         success = df_elicit_clean[field].notna().sum()
-        print(f"  {field}: {success}/{len(df_elicit_clean)} ({success/len(df_elicit_clean)*100:.1f}%)")
+        print(
+            f"  {field}: {success}/{len(df_elicit_clean)} ({success/len(df_elicit_clean)*100:.1f}%)")
 
 print(f"\n{'='*60}")
 print("VARIABLE EXTRACTION ANALYSIS")
 print(f"{'='*60}")
 
 # Analyze variable information
+
+
 def extract_variable_counts(text):
     """Extract variable counts from text"""
     if pd.isna(text):
         return {}
-    
+
     # Look for explicit variable counts
     counts = {}
-    
+
     # Try to find total variables
     total_pattern = r"(\d+)\s*(?:total\s*)?(?:independent\s*)?variables?"
     total_matches = re.findall(total_pattern, text, re.IGNORECASE)
     if total_matches:
-        counts['Total_Variables'] = int(total_matches[-1])  # Take the last match
-    
+        counts['Total_Variables'] = int(
+            total_matches[-1])  # Take the last match
+
     # Look for category-specific counts
     categories = {
         'Demographic': r"(\d+)\s*demographic",
-        'Economic': r"(\d+)\s*economic", 
+        'Economic': r"(\d+)\s*economic",
         'Land_Use': r"(\d+)\s*land\s*use",
         'Infrastructure': r"(\d+)\s*infrastructure",
         'Distance': r"(\d+)\s*distance",
         'Crime_Opportunity': r"(\d+)\s*crime\s*opportunity",
         'Social': r"(\d+)\s*social"
     }
-    
+
     for category, pattern in categories.items():
         matches = re.findall(pattern, text, re.IGNORECASE)
         if matches:
             counts[f'{category}_Variables'] = int(matches[0])
-    
+
     return counts
+
 
 # Extract variable information
 variable_info = []
@@ -185,14 +195,15 @@ for idx, row in df_elicit_clean.iterrows():
 df_variables = pd.DataFrame(variable_info)
 
 print(f"Variable extraction analysis:")
-var_fields = ['Total_Variables', 'Demographic_Variables', 'Economic_Variables', 
-             'Land_Use_Variables', 'Infrastructure_Variables', 'Distance_Variables',
-             'Crime_Opportunity_Variables', 'Social_Variables']
+var_fields = ['Total_Variables', 'Demographic_Variables', 'Economic_Variables',
+              'Land_Use_Variables', 'Infrastructure_Variables', 'Distance_Variables',
+              'Crime_Opportunity_Variables', 'Social_Variables']
 
 for field in var_fields:
     if field in df_variables.columns:
         success = df_variables[field].notna().sum()
-        print(f"  {field}: {success}/{len(df_variables)} ({success/len(df_variables)*100:.1f}%)")
+        print(
+            f"  {field}: {success}/{len(df_variables)} ({success/len(df_variables)*100:.1f}%)")
 
 print(f"\n{'='*60}")
 print("COMPARISON WITH AUTOMATED EXTRACTION")
@@ -202,22 +213,25 @@ print(f"{'='*60}")
 comparison_results = {}
 
 # Match studies by filename (remove extensions for comparison)
-df_elicit_clean['Filename_Clean'] = df_elicit_clean['Filename'].str.replace('.pdf', '', regex=False)
-df_automated['PDF_File_Clean'] = df_automated['PDF_File'].str.replace('.pdf', '', regex=False)
+df_elicit_clean['Filename_Clean'] = df_elicit_clean['Filename'].str.replace(
+    '.pdf', '', regex=False)
+df_automated['PDF_File_Clean'] = df_automated['PDF_File'].str.replace(
+    '.pdf', '', regex=False)
 
 # Create comparison for overlapping studies
 merged_comparison = df_elicit_clean.merge(
-    df_automated, 
-    left_on='Filename_Clean', 
-    right_on='PDF_File_Clean', 
+    df_automated,
+    left_on='Filename_Clean',
+    right_on='PDF_File_Clean',
     how='inner'
 )
 
-print(f"Studies matched between Elicit and Automated: {len(merged_comparison)}")
+print(
+    f"Studies matched between Elicit and Automated: {len(merged_comparison)}")
 
 if len(merged_comparison) > 0:
     print(f"\nComparison results:")
-    
+
     # Compare crime types
     crime_match = 0
     for idx, row in merged_comparison.iterrows():
@@ -226,9 +240,10 @@ if len(merged_comparison) > 0:
         if elicit_crime and auto_crime:
             if any(keyword in elicit_crime for keyword in auto_crime.split('_')):
                 crime_match += 1
-    
-    print(f"  Crime type consistency: {crime_match}/{len(merged_comparison)} ({crime_match/len(merged_comparison)*100:.1f}%)")
-    
+
+    print(
+        f"  Crime type consistency: {crime_match}/{len(merged_comparison)} ({crime_match/len(merged_comparison)*100:.1f}%)")
+
     # Compare model types
     model_match = 0
     for idx, row in merged_comparison.iterrows():
@@ -237,8 +252,9 @@ if len(merged_comparison) > 0:
         if elicit_model and auto_model:
             if 'logit' in elicit_model and 'logit' in auto_model:
                 model_match += 1
-    
-    print(f"  Model type consistency: {model_match}/{len(merged_comparison)} ({model_match/len(merged_comparison)*100:.1f}%)")
+
+    print(
+        f"  Model type consistency: {model_match}/{len(merged_comparison)} ({model_match/len(merged_comparison)*100:.1f}%)")
 
 print(f"\n{'='*60}")
 print("INFORMATION GAPS ANALYSIS")
@@ -255,7 +271,7 @@ if len(study_areas) > 0:
     for area in study_areas.head(3):
         print(f"     - {area}")
 
-# Population information  
+# Population information
 population_info = df_elicit_clean['Population_Per_Unit'].dropna()
 print(f"✅ Population per unit: {len(population_info)} studies")
 
@@ -264,11 +280,15 @@ data_sources = df_elicit_clean['Data_Sources'].dropna()
 print(f"✅ Data sources: {len(data_sources)} studies")
 
 # Variable information
-total_vars = df_variables['Total_Variables'].dropna()
-print(f"✅ Total variable counts: {len(total_vars)} studies")
-if len(total_vars) > 0:
-    print(f"   Range: {total_vars.min()}-{total_vars.max()} variables")
-    print(f"   Mean: {total_vars.mean():.1f} variables")
+if 'Total_Variables' in df_variables.columns:
+    total_vars = df_variables['Total_Variables'].dropna()
+    print(f"✅ Total variable counts: {len(total_vars)} studies")
+    if len(total_vars) > 0:
+        print(f"   Range: {total_vars.min()}-{total_vars.max()} variables")
+        print(f"   Mean: {total_vars.mean():.1f} variables")
+else:
+    total_vars = pd.Series(dtype=float)
+    print(f"⚠️ No total variable counts extracted")
 
 print(f"\nSTILL MISSING OR INCOMPLETE:")
 
@@ -276,17 +296,21 @@ print(f"\nSTILL MISSING OR INCOMPLETE:")
 missing_items = []
 
 if len(study_areas) < len(df_elicit_clean) * 0.8:
-    missing_items.append(f"Study area sizes: {len(df_elicit_clean) - len(study_areas)} studies missing")
+    missing_items.append(
+        f"Study area sizes: {len(df_elicit_clean) - len(study_areas)} studies missing")
 
 if len(total_vars) < len(df_elicit_clean) * 0.8:
-    missing_items.append(f"Variable counts: {len(df_elicit_clean) - len(total_vars)} studies missing")
+    missing_items.append(
+        f"Variable counts: {len(df_elicit_clean) - len(total_vars)} studies missing")
 
 if len(population_info) < len(df_elicit_clean) * 0.5:
-    missing_items.append(f"Population information: {len(df_elicit_clean) - len(population_info)} studies missing")
+    missing_items.append(
+        f"Population information: {len(df_elicit_clean) - len(population_info)} studies missing")
 
 sampling_info = df_elicit_clean['Sampling_Approach'].dropna()
 if len(sampling_info) < len(df_elicit_clean) * 0.8:
-    missing_items.append(f"Sampling strategies: {len(df_elicit_clean) - len(sampling_info)} studies missing")
+    missing_items.append(
+        f"Sampling strategies: {len(df_elicit_clean) - len(sampling_info)} studies missing")
 
 for item in missing_items:
     print(f"⚠️ {item}")
@@ -304,7 +328,8 @@ print(f"\n2. FOCUS ADDITIONAL ELICIT EXTRACTION ON:")
 remaining_needs = []
 
 if len(total_vars) < 40:
-    remaining_needs.append("Variable counts and categorization (if < 40 studies)")
+    remaining_needs.append(
+        "Variable counts and categorization (if < 40 studies)")
 
 if len(study_areas) < 40:
     remaining_needs.append("Study area sizes in km² (if < 40 studies)")
@@ -317,7 +342,7 @@ for need in remaining_needs:
 
 print(f"\n3. CREATE FINAL MERGED DATASET:")
 print("   - Combine all extraction sources")
-print("   - Resolve conflicts between automated and manual extraction") 
+print("   - Resolve conflicts between automated and manual extraction")
 print("   - Fill remaining gaps with targeted extraction")
 
 # Save analysis results

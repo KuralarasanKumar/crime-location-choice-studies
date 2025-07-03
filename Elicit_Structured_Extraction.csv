@@ -1,0 +1,1355 @@
+Study_ID,Title,Year,Filename,SUoA_Description,Study_Area,Country,Crime_Type,Model_Type,Sampling_Approach,Population_Per_Unit,Data_Sources,Raw_Main_Infor,Raw_Variables,Raw_Methodology,Filename_Clean
+1,TARGET CHOICE DURING EXTREME EVENTS: A DISCRETE SPATIAL CHOICE MODEL OF THE 2011 LONDON RIOTS *,2013,14_target_choice_during_extreme_events_a_discrete_sp.pdf,"U.K. census Lower Super Output Areas (LSOA), typically around 1,500 residents",Greater London (exact size not specified),"Greater London, United Kingdom","Offenses associated with the 2011 London riots (e.g., burglary, theft, criminal damage)",used: Conditional logit,for alternatives: Full choice set of LSOAs in Greater London,"Approximately 1,500 residents per LSOA","Police incident reports, U.K. Census","- Size of the spatial unit of analysis (SUoA): U.K. census Lower Super Output Areas (LSOA), typically around 1,500 residents
+- Calendar year(s) of the data collection: August 6-11, 2011
+- Country or jurisdiction where the study was conducted: Greater London, United Kingdom
+- Total area of the study site: Greater London (exact size not specified)
+- Type of crime analyzed: Offenses associated with the 2011 London riots (e.g., burglary, theft, criminal damage)
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set of LSOAs in Greater London
+- Independent variables included in the model: Number of schools, presence of underground stations, retail floor space, distance to the city center, location relative to the River Thames, population churn rate, ethnic diversity, deprivation index, previous 24-hour offenses
+- Population per spatial unit: Approximately 1,500 residents per LSOA
+- Choice of spatial unit of analysis (SUoA): LSOA, justified by its smaller size allowing for more representative explanatory variables
+- Data sources used: Police incident reports, U.K. Census
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: Model explains significant variance with McFadden pseudo R-squared of about .34","- Propinquity (distance from home location)
+- Presence of schools
+- Presence of transport links (underground stations)
+- Presence of retail facilities
+- Proximity to the city center
+- Presence of the Thames River as a barrier
+- Deprivation levels
+- Population churn rates
+- Ethnic diversity
+- Contagion (previous offenses in the area)
+- Population density","- Data source: All riot-related incidents in London during August 2011, as detected by the police.
+- Method: Random utility model to examine how destination features, journey origins, and offender characteristics influence spatial decision making.
+- Approach: Discrete spatial choice approach to compare targeted locations with non-targeted locations.
+- Theoretical perspectives: Crime pattern theory, social disorganization theory, collective behavior and contagion.
+- Data sources: 2001 U.K. Census for population churn and ethnic diversity; IMD 2010 for deprivation.
+- Analysis: Counting prior offenses in each area within the previous 24 hours to assess influence on new rioters.
+- Software: STATA 10 SE for model estimation.",14_target_choice_during_extreme_events_a_discrete_sp
+2,Formal Evaluation of the Impact of Barriers and Connectors on Residential Burglars' Macro-Level Offending Location Choices,2009,49_formal_evaluation_of_the_impact_of_barriers_and_connectors.pdf,"Suburb, average size 6.76 km²",Entire city of Perth,"Perth, Western Australia",Residential burglary,used: Conditional logit,for alternatives: Full choice set,"Mean population 4,669 residents","Police records, census data","- Size of the spatial unit of analysis (SUoA): Suburb, average size 6.76 km²
+- Calendar year(s) of the data collection: 2001-2002
+- Country or jurisdiction where the study was conducted: Perth, Western Australia
+- Total area of the study site: Entire city of Perth
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Barriers (river, road), connectors (train line), distance (adults, juveniles), affluence (income, SEIFA index), success factors (transience, rent, ethnic heterogeneity), number of residential units
+- Population per spatial unit: Mean population 4,669 residents
+- Choice of spatial unit of analysis (SUoA): Suburb
+- Data sources used: Police records, census data
+- Any mention of limitations or trade-offs in SUoA selection: Low detection rate, exclusion of suburbs outside Perth
+- Main findings related to SUoA size or model performance: Significant influence of barriers and connectors, McFadden's ρ² = 0.27","- Dependent Variable: Likelihood of a suburb being selected for burglary
+- Independent Variables:
+  - Physical Barriers: River (W ij), Major Roads (F ij)
+  - Connectors: Train Network (T ij)
+  - Distance: Distance between suburbs (D ij)
+  - Affluence: Weekly Income (V j), SEIFA Index (S j)
+  - Perceived Likelihood of Completion: Residential Mobility Rates (M j), Rental Properties (R j), Ethnic Heterogeneity (E j)
+  - Number of Residential Units (H j)","- Utilized the discrete spatial choice approach to evaluate barriers and connectors.
+- Data source: Western Australian Police residential burglary data.
+- Defined choice set, captured decision-maker attributes, and modeled interactions.
+- Used general utility formula and conditional logit modeling.
+- Estimated parameters using maximum likelihood methods.
+- Included descriptive statistics for offender characteristics and suburb variables.
+- Calculated distances based on suburb centroids with adjustments for zero distances.",49_formal_evaluation_of_the_impact_of_barriers_and_connectors
+3,Investigating the effect of people on the street and streetscape physical environment on the location choice of street theft crime offenders using street view images and a discrete spatial choice model,2023,41_investigating_the_effect_of_people_on_the_street.pdf,Community,Inner city of ZG,China,Street theft crime,used: Conditional logit,for alternatives: Not mentioned,Not mentioned,Baidu Street View (BSV) images,"- Size of the spatial unit of analysis (SUoA): Community
+- Calendar year(s) of the data collection: 2017-2018
+- Country or jurisdiction where the study was conducted: China
+- Total area of the study site: Inner city of ZG
+- Type of crime analyzed: Street theft crime
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Streetscape variables (number of people on the street, percent fence, percent wall, percent window, percent grass, percent plant, percent sidewalk), crime attractors, generators, detractors, socioeconomic features
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis: Community
+- Data sources used: Baidu Street View (BSV) images
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Significant improvement in model performance after including streetscape variables","- Dependent variable: Location choice of street theft crime offenders
+- Independent variables:
+  - Streetscape variables: number of people on the street, percent wall, percent fence, percent window, percent grass, percent plant, percent sidewalk
+  - Control variables: residence-crime proximity, crime attractors (ATM and banks, bus stops, subway stations, schools, hospitals), crime detractors (guard stations), socioeconomic features (percent migrants, percent low-rent houses)","- Used an integrative deep learning algorithm combining object detection (Faster R-CNN) and semantic segmentation (PSPNet) networks.
+- Extracted on-street people and physical environment elements from street view images.
+- Generated sampling points along the street network and calculated azimuth angles.
+- Constructed a discrete spatial choice model to analyze the influence of streetscape features on crime location choices.
+- Controlled for residence-crime proximity, crime attractors, generators, detractors, and socioeconomic features.",41_investigating_the_effect_of_people_on_the_street
+4,Target Selection Models with Preference Variation Between Offenders,-,51_target_selection_models_with_preference_variation.pdf,Statistical Local Areas (SLAs),Brisbane Local Government Area,Australia,Residential burglary,used: Mixed logit,for alternatives: Full choice set of 158 SLAs,Not mentioned,"Police records, Australian Bureau of Statistics (ABS) 2006 Census","- Size of the spatial unit of analysis (SUoA): Statistical Local Areas (SLAs)
+- Calendar year(s) of the data collection: 2006-2009
+- Country or jurisdiction where the study was conducted: Australia
+- Total area of the study site: Brisbane Local Government Area
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Mixed logit
+- Sampling approach for alternatives: Full choice set of 158 SLAs
+- Independent variables included in the model: Mean housing repayment, Proportion of single-family dwellings, Residential mobility, Proximity to city center, Number of households, Proximity to offender's home
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis: Statistical Local Areas (SLAs)
+- Data sources used: Police records, Australian Bureau of Statistics (ABS) 2006 Census
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned","- Dependent Variable: Location choice preference of offenders
+- Independent Variables:
+  - Mean housing repayment (affluence)
+  - Proportion of single-family dwellings (target accessibility)
+  - Residential mobility (social cohesion)
+  - Proximity to city center
+  - Number of households (target availability)
+  - Proximity to the offender's home","- Analyzed detected residential burglaries from Brisbane, Australia using a random effects variant of the discrete spatial choice model.
+- Employed a mixed logit model to estimate preference variation between individual burglars.
+- Used hierarchical Bayes estimation with 300,000 iterations and a burn-in period of 100,000 iterations.
+- Collected data on 2844 detected burglaries by 873 offenders over 2006-2009.
+- Defined a choice set of 158 Statistical Local Areas (SLAs) with characteristics from the Australian Bureau of Statistics (ABS) 2006 Census.
+- Used the RSGHB package in R for model estimation.",51_target_selection_models_with_preference_variation
+5,Effects of residential history on commercial robbers' crime location choices,-,48_effects_of_residential_history_on_commercial_robbe.pdf,Postal code area,Entire Netherlands,Netherlands,Commercial robbery,used: Conditional logit,for alternatives: Comparison of targeted and non,Average population size of 4900 per postal code area,"National Commercial Robbery Registration System, Nationwide Citizen Information System, demographic database","- Size of the spatial unit of analysis (SUoA): Postal code area
+- Calendar year(s) of the data collection: 2004 and 2005
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: Entire Netherlands
+- Type of crime analyzed: Commercial robbery
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Comparison of targeted and non-targeted postal code areas
+- Independent variables included in the model: Generic area characteristics (population size, affluence), offender-specific characteristics (distance from residence)
+- Population per spatial unit: Average population size of 4900 per postal code area
+- Choice of spatial unit of analysis: Postal code area, justified by familiarity
+- Data sources used: National Commercial Robbery Registration System, Nationwide Citizen Information System, demographic database
+- Limitations or trade-offs in SUoA selection: Limited sample size affecting statistical significance","- Dependent variable: Probability that an area is chosen as a crime location by the offender.
+- Independent variables:
+  - Distance from the offender's residence to the crime location.
+  - Whether the area is the offender's current or former residence.
+  - Duration of residence in the current or former area.
+  - Recency of residence in the former area.
+  - Control variables:
+    - Total floor area of retail businesses.
+    - Distance to the nearest highway ramp.
+    - Mean value of residential property.
+    - Population density.
+    - Population size.
+    - Population percentages of 15-25-year-old, foreign-born, and single residents.","- Used a conditional logit model to analyze crime location choices.
+- Compared targeted areas with non-targeted areas based on distance and area characteristics.
+- Data sources: National Commercial Robbery Registration System (LORS), Nationwide Citizen Information System (GBA), and demographic/economic database.
+- Selected robberies from 2004 and 2005 with arrested individuals, solitary offenders, and known postal codes.
+- Final sample: 276 robberies after excluding unknown or abroad residences.",48_effects_of_residential_history_on_commercial_robbe
+6,A Time for a Crime: Temporal Aspects of Repeat Offenders' Crime Location Choices,2018,45_a_time_for_a_crime_temporal_aspects_of_repeat_off.pdf,Four,"Not explicitly mentioned in terms of km², but includes nine municipalities around and including The Hague.","The Netherlands, specifically the greater The Hague area.","Robbery, burglary, theft, and assault.",used: Conditional logit model.,for alternatives: Full choice set of 142 postal code areas.,"Approximately 7,000 residents.","Dutch Suspect Identification System, nationwide citizen information system BRP.","- Size of the spatial unit of analysis (SUoA): Four-digit postal code areas with an average area size of about 2.96 km² and an average population of approximately 7,000 residents.
+- Calendar year(s) of the data collection: 2006 to 2009.
+- Country or jurisdiction where the study was conducted: The Netherlands, specifically the greater The Hague area.
+- Total area of the study site: Not explicitly mentioned in terms of km², but includes nine municipalities around and including The Hague.
+- Type of crime analyzed: Robbery, burglary, theft, and assault.
+- Type of discrete choice model used: Conditional logit model.
+- Sampling approach for alternatives: Full choice set of 142 postal code areas.
+- Independent variables included in the model: Timing of previous offenses, current or former residence, distance from current residential area.
+- Population per spatial unit: Approximately 7,000 residents.
+- Choice of spatial unit of analysis: Four-digit postal code areas due to minimal travel restrictions.
+- Data sources used: Dutch Suspect Identification System, nationwide citizen information system BRP.
+- Limitations or trade-offs in SUoA selection: Not mentioned.
+- Main findings related to SUoA size or model performance: Pseudo R² of .32 for models accounting for time-specific effects.","- Dependent Variable: Target area selected by the offender
+- Independent Variables:
+  - Timing of crime within the week
+  - Timing of crime within the day
+  - Type of crime (same or different)
+  - Control Variables:
+    - Current or former residence
+    - Distance from current residential area to target area alternatives
+    - Target area characteristics:
+      - Proportion of non-Western residents
+      - Proportion of single-person households
+      - Population density
+      - Number of employees
+      - Presence of various facilities","- Data on 12,639 offenses by 3,666 repeat offenders in the Netherlands were analyzed.
+- Discrete spatial choice models were used to study the timing of offenses.
+- Conditional logit models were employed to test hypotheses.
+- A large data matrix was constructed for analysis.
+- Results were presented using odds ratios and standard errors.
+- Cluster-corrected standard errors were used to account for nested data.",45_a_time_for_a_crime_temporal_aspects_of_repeat_off
+7,A SENTIMENTAL JOURNEY TO CRIME: EFFECTS OF RESIDENTIAL HISTORY ON CRIME LOCATION CHOICE*,2010,46_a_sentimental_journey_to_crime_effects_of_reside.pdf,Postal code area,Entire Netherlands,The Netherlands,"Robberies, residential burglaries, thefts from vehicles, and assaults",used: Conditional logit model,for alternatives: Full choice set,"Average population size of 4,900 per postal code area","Police records, population registration data, national demographic database","- Size of the spatial unit of analysis (SUoA): Postal code area
+- Calendar year(s) of the data collection: 2004 and 2005
+- Country or jurisdiction where the study was conducted: The Netherlands
+- Total area of the study site: Entire Netherlands
+- Type of crime analyzed: Robberies, residential burglaries, thefts from vehicles, and assaults
+- Type of discrete choice model used: Conditional logit model
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Residential history and distance measures
+- Population per spatial unit: Average population size of 4,900 per postal code area
+- Choice of spatial unit of analysis: Postal code area, justified by familiarity and local travel design
+- Data sources used: Police records, population registration data, national demographic database
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned","- Dependent variable: Selection of a crime site by an offender
+- Independent variables:
+  - Whether the offender lives in the area (dichotomous)
+  - Whether the offender ever has lived in the area before (but not currently) (dichotomous)
+  - Whether the offender has lived in the area longer or shorter than 2 years (dichotomous)
+  - Whether the offender has moved out of the area shorter or longer than 2 years ago (dichotomous)
+  - The distance between the area and the offender's current area of residence (continuous)
+  - The shortest distance between the area and the nearest former area of residence (continuous)","- Data sources: Police information system, population registration data, national database of demographic information.
+- Method: Discrete choice model using conditional logit model.
+- Data matrix: Each offense analyzed against multiple choice alternatives (postal code areas).
+- Dependent variable: Dichotomous variable indicating chosen area.
+- Independent variables: Distance to home, past residence history.
+- Hypotheses testing: Residential history and distance factors.",46_a_sentimental_journey_to_crime_effects_of_reside
+8,Burglars blocked by barriers? The impact of physical and social barriers on residential burglars' target location choices in China,2021,40_burglars_blocked_by_barriers.pdf,Communities with an average size of 2.74 km²,"Not explicitly mentioned, but involves 2643 communities in ZG city","ZG city, China",Residential burglary,used: Conditional logit,for alternatives: Full choice set (all 2643 communities),Not explicitly mentioned,"Police incident reports, census data","- Size of the spatial unit of analysis (SUoA): Communities with an average size of 2.74 km²
+- Calendar year(s) of the data collection: January 2012 to June 2016
+- Country or jurisdiction where the study was conducted: ZG city, China
+- Total area of the study site: Not explicitly mentioned, but involves 2643 communities in ZG city
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set (all 2643 communities)
+- Independent variables included in the model: Physical barriers (major roads and rivers), social barriers (Hukou status), distance from home, proportion of houses built after 2000, rent prices, proportion of high-rise buildings, number of households
+- Population per spatial unit: Not explicitly mentioned
+- Choice of spatial unit of analysis (SUoA): Communities, justified by homogeneity and average size
+- Data sources used: Police incident reports, census data
+- Any mention of limitations or trade-offs in SUoA selection: Use of only arrested offenders, temporal mismatch between census and crime data
+- Main findings related to SUoA size or model performance: Not explicitly discussed","- Dependent Variable: Choice of target community for a burglary (yes = 1, no = 0)
+- Independent Variables:
+  - Physical Barriers:
+    - Presence of rivers
+    - Major roads with access control
+    - Major roads without access control
+  - Social Barriers:
+    - Hukou status (local vs. nonlocal)
+  - Control Variables:
+    - Distance from offender's home
+    - Proportion of houses built after 2000
+    - Rent prices
+    - Proportion of high-rise buildings
+    - Log number of households","- Data source: Municipal Public Security Bureau of ZG city, China
+- Data period: January 2012 to June 2016
+- Number of burglaries: 3860
+- Number of burglars: 3772
+- Method: Conditional logit (discrete choice) models
+- Estimation method: Weighted exogenous sample maximum likelihood (WESML)
+- Software: Stata/MP version 15",40_burglars_blocked_by_barriers
+9,FAMILY MATTERS: EFFECTS OF FAMILY MEMBERS' RESIDENTIAL AREAS ON CRIME LOCATION CHOICE *,-,44_family_matters_effects_of_family_members_residen.pdf,Four,Greater The Hague area,Netherlands,General crime location choice,used: Conditional logit,for alternatives: Full choice set of 142 four,"Average population size of around 7,000","Police data, population registration data","- Size of the spatial unit of analysis (SUoA): Four-digit postal code areas
+- Calendar year(s) of the data collection: 2006-2009
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: Greater The Hague area
+- Type of crime analyzed: General crime location choice
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set of 142 four-digit postal code areas
+- Independent variables included in the model: Residential areas of family members, current and former residential areas of offenders, distance to current residence, previous crime locations, area characteristics
+- Population per spatial unit: Average population size of around 7,000
+- Choice of spatial unit of analysis (SUoA): Four-digit postal code areas, justified by minimal travel restrictions and familiarity
+- Data sources used: Police data, population registration data
+- Any mention of limitations or trade-offs in SUoA selection: Focus on a specific urban area, indirect measurement of awareness spaces","- Dependent Variable: Choice of a specific area to commit a crime
+- Independent Variables:
+  - Residential areas of offenders' family members (parents, siblings, children) at the time of the offense and previously
+  - Gender of the offender
+  - Gender of family members
+- Control Variables:
+  - Previous crime locations
+  - Distance to the current residence of the offender
+  - Population density
+  - Proportion of single-person households
+  - Proportion of residents with a non-Western background
+  - Number of retail stores
+  - Number of hotels, restaurants, and bars
+  - Number of schools
+  - Number of culture, health-care, and sports/leisure facilities
+  - Number of people working in each postal code area","- Combined police data and population registration data for 7,910 offenders and 19,420 offenses.
+- Used discrete spatial choice models to study crime location choice.
+- Analyzed 142 four-digit postal code areas in the greater The Hague area.
+- Sourced data from police records and population registration data.
+- Employed conditional logit models to test hypotheses, presenting results as odds ratios.",44_family_matters_effects_of_family_members_residen
+10,"BITING ONCE, TWICE: THE INFLUENCE OF PRIOR ON SUBSEQUENT CRIME LOCATION CHOICE *",-,42_biting_once_twice_the_influence_of_prior_on_subs.pdf,Four,"Greater The Hague area, with each postal code area averaging 2.96 km²",Netherlands,Various types of offenses,used: Conditional logit model,for alternatives: Full choice set of 142 postal code areas,"Approximately 7,000 per postal code area","Police records, LISA database","- Size of the spatial unit of analysis (SUoA): Four-digit postal code areas
+- Calendar year(s) of the data collection: 2006 to 2009
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: Greater The Hague area, with each postal code area averaging 2.96 km²
+- Type of crime analyzed: Various types of offenses
+- Type of discrete choice model used: Conditional logit model
+- Sampling approach for alternatives: Full choice set of 142 postal code areas
+- Independent variables included in the model: Prior crime locations, proximity, recency, frequency, type of crime, residential history, area characteristics
+- Population per spatial unit: Approximately 7,000 per postal code area
+- Choice of spatial unit of analysis: Four-digit postal code areas, justified by familiarity
+- Data sources used: Police records, LISA database
+- Limitations or trade-offs in SUoA selection: Size of the unit of analysis, potential for edge effects","- Dependent Variable: Choice of an area to commit a crime (dichotomous)
+- Independent Variables:
+  - Previously chosen (dichotomous)
+  - Distance to prior offense (continuous)
+  - Recency (dichotomous)
+  - Number of prior offenses (continuous)
+  - Same type and different type (dichotomous)
+  - Residential history variables:
+    - Current residence duration
+    - Former residence duration
+    - Recency of moving
+  - Distance from current residence to potential target areas
+  - Area characteristics:
+    - Population density
+    - Proportion of single-person households
+    - Proportion of non-Western residents
+    - Number of employees
+    - Retail businesses
+    - Hotels, restaurants, and bars
+    - Schools
+    - Health care facilities
+    - Cultural facilities
+    - Sport and leisure facilities","- Data collection: Unique data from four different data sources.
+- Data source: Police information system used by the greater The Hague Police Service.
+- Analytical method: Discrete choice models.
+- Dependent variable: Dichotomous variable indicating area choice for crime.
+- Statistical analysis: Conditional logit models with a large data matrix.",42_biting_once_twice_the_influence_of_prior_on_subs
+11,Modeling Micro-Level Crime Location Choice: Application of the Discrete Choice Framework to Crime at Places,-,47_modeling_micro-level_crime_location_choice_applic.pdf,"Small residential areas approximately the size of a football field, containing 18 residential units and 40 residents on average.",400 sq. km (Greater The Hague Area),Netherlands,Burglary,used: Spatial competition model,"for alternatives: Random sample of 1,499 alternatives from the full choice set",Approximately 40 residents on average,"Police incident reports, public access data files from Statistics Netherlands","- Size of the spatial unit of analysis (SUoA): Small residential areas approximately the size of a football field, containing 18 residential units and 40 residents on average.
+- Calendar year(s) of the data collection: 2002-2007
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: 400 sq. km (Greater The Hague Area)
+- Type of crime analyzed: Burglary
+- Type of discrete choice model used: Spatial competition model
+- Sampling approach for alternatives: Random sample of 1,499 alternatives from the full choice set
+- Independent variables included in the model: Number of residential properties, proximity, population nonnative percentage, population ages 15-25 percentage, value of properties, spatial competition factor
+- Population per spatial unit: Approximately 40 residents on average
+- Choice of spatial unit of analysis (SUoA): Postal code areas, justified by alignment with natural behavior settings and postal delivery facilitation
+- Data sources used: Police incident reports, public access data files from Statistics Netherlands
+- Limitations or trade-offs in SUoA selection: Consideration of spatial interaction effects
+- Main findings related to SUoA size or model performance: Smaller units allow for precise measurement and better detection of differences, but require consideration of spatial interaction effects","- Dependent Variable: Burglary location choice
+- Independent Variables:
+  - Number of residential units
+  - Number of residents
+  - Distance between origin and destination
+  - Spatial competition factor
+  - Population characteristics (age, ethnic composition)
+  - Residential unit characteristics (average value)","- Discrete choice framework based on random utility maximization
+- Multinomial logit model for analyzing choices
+- Spatial competition model for addressing spatial interdependence
+- Stepwise approach with gradual addition of variables and interaction terms
+- Sampling method for managing computational complexity",47_modeling_micro-level_crime_location_choice_applic
+12,The Importance of Importance Sampling,-,35_the_importance_of_importance_sampling_exploring_m.pdf,"SA2, roughly equivalent to neighborhoods",Entire country of New Zealand,New Zealand,Residential and non,used: Conditional logit,for alternatives: Importance sampling and simple random sampling,Typically 2000,"Police data, census data","- Size of the spatial unit of analysis (SUoA): SA2, roughly equivalent to neighborhoods
+- Calendar year(s) of the data collection: 2009-2018
+- Country or jurisdiction where the study was conducted: New Zealand
+- Total area of the study site: Entire country of New Zealand
+- Type of crime analyzed: Residential and non-residential burglary, commercial and personal robbery, extra-familial sex offenses
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Importance sampling and simple random sampling
+- Independent variables included in the model: Proximity of offenders' routine activity nodes to each SA2, level of crime opportunity in each SA2
+- Population per spatial unit: Typically 2000-4000 residents
+- Choice of spatial unit of analysis (SUoA): SA2, justified by its equivalence to neighborhoods
+- Data sources used: Police data, census data
+- Limitations or trade-offs in SUoA selection: Potential for selection bias, not all activity nodes included","- Dependent Variable: Choice of SA2 (location where the offender committed the crime)
+- Independent Variables:
+  - Proximity of offenders' routine activity nodes to each SA2 (six distance bands: within SA2, 0-200m, 200-500m, 500m-1km, 1-2km, 2-5km)
+  - Level of crime opportunity in each SA2 (varies by crime type):
+    - Residential burglary: Number of households in SA2
+    - Non-residential burglary: Number of business units in any industry
+    - Commercial robbery: Number of business units for targeted industries
+    - Personal robbery and extra-familial sex offenses: Number of commercial or public business units","- Used police data on various crimes and pre-offense activity locations.
+- Tested a novel importance sampling method that over-samples potential crime locations near offenders' activity locations.
+- Compared importance sampling with simple random sampling.
+- Used NZ Census Statistical Area 2 (SA2) as the spatial unit.
+- Employed a conditional logit model for analysis.
+- Conducted analysis using R software on an HP Elitebook.",35_the_importance_of_importance_sampling_exploring_m
+13,CO-OFFENDERS' CRIME LOCATION CHOICE: DO CO-OFFENDING GROUPS COMMIT CRIMES IN THEIR SHARED AWARENESS SPACE?,-,43_co-offenders_crime_location_choice.pdf,2.96 km² (four,142 four,The Netherlands (greater The Hague region),"Burglary, theft, public disorder crimes, assault",used: Conditional logit,for alternatives: Full choice set,"Average population size of 7,000","Police incident reports, population registration data","- Size of the spatial unit of analysis (SUoA): 2.96 km² (four-digit postal code area)
+- Calendar year(s) of the data collection: 2006-2009
+- Country or jurisdiction where the study was conducted: The Netherlands (greater The Hague region)
+- Total area of the study site: 142 four-digit postal code areas
+- Type of crime analyzed: Burglary, theft, public disorder crimes, assault
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Current home location, previous home location, previous crime location, density of residents, number of one-person households, percentage of non-Western residents, number of employees, retail businesses, hotels, restaurants, bars, schools, healthcare facilities, cultural facilities, sport facilities
+- Population per spatial unit: Average population size of 7,000
+- Choice of spatial unit of analysis (SUoA): Four-digit postal code area; justification: designed to have minimal travel restrictions for postal delivery services
+- Data sources used: Police incident reports, population registration data
+- Any mention of limitations or trade-offs in SUoA selection: Considered a large unit of analysis; potential over-representation of co-offending groups due to arrest data
+- Main findings related to SUoA size or model performance: Not explicitly mentioned","- Dependent Variable: Choice of an area for co-offending
+- Independent Variables:
+  - Home location
+  - Previous home location
+  - Previous crime location
+  - Shared awareness space (areas known to multiple offenders)
+- Control Variables:
+  - Density of residents
+  - Number of one-person households
+  - Percentage of non-Western residents
+  - Number of employees
+  - Retail businesses
+  - Hotel, restaurants, and bars
+  - Schools
+  - Healthcare facilities
+  - Cultural facilities
+  - Sport facilities","- Data analysis using a discrete spatial choice model.
+- Dependent variable: Choice of area for co-offending.
+- Control variables: Area characteristics influencing crime location choice.
+- Use of odds ratios to measure likelihood of area targeting.
+- Statistical testing with a conditional logit model.",43_co-offenders_crime_location_choice
+14,"Right place, right time? Making crime pattern theory time-specific",-,39_right_place_right_time_making_crime_pattern_theory.pdf,"Neighborhood, median area of 0.66 km²","Not explicitly mentioned, but covers 13,305 neighborhoods in the Netherlands",Netherlands,"Residential burglary, theft of/from a bicycle, car or other (motor) vehicle, theft from a shop/shoplifting, assault, vandalism",used: Conditional logit,for alternatives: Full choice set,Not mentioned,"Police incident reports, online survey instrument","- Size of the spatial unit of analysis (SUoA): Neighborhood, median area of 0.66 km²
+- Calendar year(s) of the data collection: 2018
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: Not explicitly mentioned, but covers 13,305 neighborhoods in the Netherlands
+- Type of crime analyzed: Residential burglary, theft of/from a bicycle, car or other (motor) vehicle, theft from a shop/shoplifting, assault, vandalism
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Neighborhood routinely visited at same time of day as crime event, neighborhood routinely visited at different time of day as crime event
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Neighborhood
+- Data sources used: Police incident reports, online survey instrument
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: Almost 40% of offenses committed within neighborhoods of offenders' activity nodes, increasing to 85% with first-, second-, and third-order neighborhoods","- Dependent Variable: Crime committed in neighbourhood (1 = yes; 0 = no)
+- Independent Variables:
+  - Neighbourhood routinely visited (1 = yes; 0 = no)
+  - Neighbourhood routinely visited at same time of day as crime event (1 = yes; 0 = no)
+  - Neighbourhood routinely visited at different time of day as crime event (1 = yes; 0 = no)","- Data collection: Unique online survey instrument
+- Survey content: Daily and weekly routine activities in seven domains; times of day and days of the week for these activities
+- Data analysis: Discrete spatial choice model; conditional logit model for crime location choice
+- Error calculation: Bootstrapped standard errors",39_right_place_right_time_making_crime_pattern_theory
+15,Ambient population and surveillance cameras: The guardianship role in street robbers' crime location choice,2021,31_ambient_population_and_surveillance_cameras.pdf,Average size of 1.62 km² per community,Covers 1971 communities,"ZG City, China",Street robbery,used: Conditional logit,for alternatives: Full choice set (1971 communities),Not explicitly mentioned,"Police incident reports, census data, mobile phone data, neighborhood characteristics data","- Size of the spatial unit of analysis (SUoA): Average size of 1.62 km² per community
+- Calendar year(s) of the data collection: 2012-2016
+- Country or jurisdiction where the study was conducted: ZG City, China
+- Total area of the study site: Covers 1971 communities
+- Type of crime analyzed: Street robbery
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set (1971 communities)
+- Independent variables included in the model: Malls and supermarkets, grocers, terminal markets, bars and clubs, cybercafés, sports stadiums, high schools, ATMs and banks, carparks, bus stops, transportation hubs, subway stations, density of road network, proportion of migrants, proportion of youngsters, socioeconomic heterogeneity, log distance, ambient population, surveillance cameras
+- Population per spatial unit: Not explicitly mentioned
+- Choice of spatial unit of analysis (SUoA): Community
+- Data sources used: Police incident reports, census data, mobile phone data, neighborhood characteristics data
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: Highest explanatory power when integrating ambient population and surveillance cameras","- Dependent variable: Crime location choice by street robbers
+- Independent variables:
+  - Ambient population
+  - Surveillance cameras
+  - Crime attractors and generators
+  - Accessibility (density of road network)
+  - Proximity (distance of journey to crime)
+  - Social disorganization factors:
+    - Proportion of migrants
+    - Proportion of youngsters
+    - Socioeconomic heterogeneity","- Discrete spatial choice modeling is used to analyze crime location choice.
+- Conditional logit model estimates the utility function for location choices.
+- Data includes crime records, neighborhood characteristics, POI, census, mobile phone, and police data.
+- Ambient population measured via mobile phone data; surveillance cameras quantified by number.
+- Control variables include road network density, journey distance, and social disorganization factors.",31_ambient_population_and_surveillance_cameras
+16,Do Migrant and Native Robbers Target Different Places?,2021,32_do_migrant_and_native_robbers_target_different_places.pdf,Neighborhoods with an average area of 1.62 km²,1971 neighborhoods with an average area of 1.62 km² each,"ZG City, China",Street robbery,used: Conditional logit,for alternatives: Not explicitly mentioned,Not mentioned,"Police incident reports, POI data, mobile phone data, traffic road network vector map data, bus stop data, census data","- Size of the spatial unit of analysis (SUoA): Neighborhoods with an average area of 1.62 km²
+- Calendar year(s) of the data collection: 2012 to 2016
+- Country or jurisdiction where the study was conducted: ZG City, China
+- Total area of the study site: 1971 neighborhoods with an average area of 1.62 km² each
+- Type of crime analyzed: Street robbery
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Not explicitly mentioned
+- Independent variables included in the model: Built environment attributes and control variables
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Neighborhoods
+- Data sources used: Police incident reports, POI data, mobile phone data, traffic road network vector map data, bus stop data, census data
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Not explicitly discussed","- Explanatory variables:
+  - Malls and supermarkets
+  - Grocers
+  - Wholesale markets
+  - Bars and clubs
+  - Sports stadiums
+  - High schools
+  - ATMs and banks
+  - Carparks
+  - Bus stops
+  - Transportation hubs
+  - Subway stations
+  - Density of road network
+- Control variables:
+  - Proportion of migrants
+  - Proportion of youngsters
+  - Socioeconomic heterogeneity
+  - Daily human mobility
+  - Detection rate
+  - Distance of journey to crime","- Kernel density estimation
+- Discrete spatial choice modeling
+- Conditional logit selection models
+- Data sources: arrest data, POI data, traffic road network vector map data, bus stop data, mobile phone data, census data
+- Calculations performed using Stata 13.0 software",32_do_migrant_and_native_robbers_target_different_places
+17,"Do juvenile, young adult, and adult offenders target different places in the Chinese context?",2022,33_do_juvenile_young_adult_and_adult_offenders_target_different_places.pdf,Neighborhood units with an average area of 1.62 km²,Comprises 1971 neighborhood units,China,Street robbery,used: Conditional logit,for alternatives: Not mentioned,Not mentioned,"ZG City Public Security Bureau, census data","- Size of the spatial unit of analysis (SUoA): Neighborhood units with an average area of 1.62 km²
+- Calendar year(s) of the data collection: 2012 to 2016
+- Country or jurisdiction where the study was conducted: China
+- Total area of the study site: Comprises 1971 neighborhood units
+- Type of crime analyzed: Street robbery
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Age-related activity nodes, social disorganization variables, distance of journey to crime
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis: Neighborhood units
+- Data sources used: ZG City Public Security Bureau, census data
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: The model has a better explanatory ability with a pseudo R² value >0.20","- Dependent variable: Locations of the robbery (geocoded into one of 1971 neighborhoods)
+- Independent variables:
+  - Age-related activity nodes: Bars and clubs, Cybercafés, Schools, Transportation hubs, Wholesale markets
+  - Social disorganization: Proportion of migrants, Proportion of young adults
+  - Distance of journey to crime
+- Control variables: Malls and supermarkets, Bus stops, Subway stations, Car parks","- Examined 7860 street robberies by 4358 offenders in ZG city, China.
+- Used a conditional logit selection model to assess crime location preferences.
+- Included variables: distance of journey to crime, social disorganization (migrant and young adult proportions).
+- Geocoded robbery locations to 1971 neighborhoods.
+- Tested for multicollinearity using correlation and regression analysis.",33_do_juvenile_young_adult_and_adult_offenders_target_different_places
+18,THE INFLUENCE OF ACTIVITY SPACE AND VISITING FREQUENCY ON CRIME LOCATION CHOICE: FINDINGS FROM AN ONLINE SELF-REPORT SURVEY,2019,38_the_influence_of_activity_space_and_visiting_frequ.pdf,Neighborhoods,Entire Netherlands,Netherlands,"Various types including violent offenses, thefts, vandalism, drug trafficking, burglaries, robberies, and weapons trafficking",used: Conditional logit,for alternatives: Not mentioned,Median residential population of 675,"Geographical data from Statistics Netherlands, Online Activity Space Inventory Survey (OASIS)","- Size of the spatial unit of analysis (SUoA): Neighborhoods
+- Calendar year(s) of the data collection: Not explicitly mentioned
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: Entire Netherlands
+- Type of crime analyzed: Various types including violent offenses, thefts, vandalism, drug trafficking, burglaries, robberies, and weapons trafficking
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Activity nodes, visiting frequencies, residential population density, employee density
+- Population per spatial unit: Median residential population of 675
+- Choice of spatial unit of analysis (SUoA): Neighborhoods, justified by being the smallest statistical units with detailed information
+- Data sources used: Geographical data from Statistics Netherlands, Online Activity Space Inventory Survey (OASIS)
+- Any mention of limitations or trade-offs in SUoA selection: Online survey may not have captured all activity nodes visited by offenders","- Dependent Variable: Offence locations (choice of neighbourhood)
+- Independent Variables:
+  - Activity nodes (dummy variables)
+  - Proximity to residential area (dummy variables for first-, second-, and third-order neighbourhoods)
+  - Visiting frequency (dummy variables for very frequently and less frequently visited nodes)
+- Control Variables:
+  - Residential population density
+  - Employee density","- Data collection through the Online Activity Space Inventory Survey (OASIS) using LimeSurvey.
+- Use of Google Maps for respondents to pinpoint activity locations.
+- Survey questions covered various domains like home, work, leisure, and crime locations.
+- Sample drawn from police suspect information system.
+- Study area: entire Netherlands; spatial unit: neighborhoods.
+- Analysis using conditional logit models.
+- Coding of activity nodes into dummy variables based on geocoded locations and visiting frequency.
+- Sample: 78 offenders reporting 140 offences.",38_the_influence_of_activity_space_and_visiting_frequ
+19,Location Choice of Snatching Offenders in Chennai City,2021,37_location_choice_of_snatching_offenders_in_chennai.pdf,2.18 km² (average ward size),Greater Chennai City Corporation,"Chennai, India",Snatching offenses,used: Conditional logit,for alternatives: Full choice set of 201 wards,"Average population of 33,195 per ward","Police incident reports, Google Earth","- Size of the spatial unit of analysis (SUoA): 2.18 km² (average ward size)
+- Calendar year(s) of the data collection: August 2010 to July 2017
+- Country or jurisdiction where the study was conducted: Chennai, India
+- Total area of the study site: Greater Chennai City Corporation
+- Type of crime analyzed: Snatching offenses
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set of 201 wards
+- Independent variables included in the model: Distance, prior crimes, area, population, various facility types (e.g., churches, educational institutions)
+- Population per spatial unit: Average population of 33,195 per ward
+- Choice of spatial unit of analysis (SUoA): Ward, justified by similarity to neighborhoods or census tracts
+- Data sources used: Police incident reports, Google Earth
+- Any mention of limitations or trade-offs in SUoA selection: Large ward size may not capture fine-grained crime attractors/generators
+- Main findings related to SUoA size or model performance: Confirmation of distance decay pattern and influence of prior offenses on location choice","- Dependent variable: Location choice of snatching offenders
+- Independent variables:
+  - Distance from offender's home to crime location
+  - Prior crimes in the location
+  - Presence of facilities (crime generators and attractors):
+    - Churches
+    - Educational institutions
+    - Marriage halls
+    - Personal care businesses
+    - Parks
+    - Restaurants
+    - Business offices
+  - Control variables:
+    - Ward area
+    - Ward population","- Data comprised 1573 police-recorded snatching offenses by 1152 offenders in Chennai City.
+- Discrete crime location choice models were used to determine offenders' location preferences.
+- Data on facilities were collected using Google location services.
+- The discrete crime location choice method is based on McFadden's random utility maximization theory and econometric discrete choice models.
+- The study area was the Greater Chennai City Corporation, covering offenses from August 2010 to July 2017.
+- Offense data were obtained from the State Crime Records Bureau, Tamil Nadu, India.
+- The method allows for the inclusion of individual characteristics in the analysis.",37_location_choice_of_snatching_offenders_in_chennai
+20,AWARENESS × OPPORTUNITY: TESTING INTERACTIONS BETWEEN ACTIVITY NODES AND CRIMINAL OPPORTUNITY IN PREDICTING CRIME LOCATION CHOICE,2018,34_awareness_x_opportunity_testing_interactions_betw.pdf,Four,Three municipalities in the greater The Hague area,Netherlands,Any,used: Conditional logit,for alternatives: Full choice set of 76 postal code areas,Average population size of around 7700,"Police records, population registration data, community surveys","- Size of the spatial unit of analysis (SUoA): Four-digit postal code areas
+- Calendar year(s) of the data collection: 2006-2009
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: Three municipalities in the greater The Hague area
+- Type of crime analyzed: Any-crime-type offenses (including violent and property crimes)
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set of 76 postal code areas
+- Independent variables included in the model: Residential areas of offenders and family, number of bars/restaurants/hotels, collective efficacy
+- Population per spatial unit: Average population size of around 7700
+- Choice of spatial unit of analysis (SUoA): Four-digit postal code areas; justified by minimal travel restrictions and inverse relation to urbanization level
+- Data sources used: Police records, population registration data, community surveys
+- Any mention of limitations or trade-offs in SUoA selection: Spatial unit could be considered large compared to theoretical models","- Dependent Variable: Crime location choice
+- Independent Variables:
+  - Activity Nodes:
+    - Residential area of the offender (dummy variable)
+    - Residential area of family (dummy variable)
+  - Opportunity Indicators:
+    - Number of bars/restaurants/hotels
+    - Collective efficacy
+  - Control Variables:
+    - Former residential area of the offender (dummy variable)
+    - Distance between the offender's residential area and the crime location
+    - Previous crime locations
+    - Neighbourhood disorder
+    - Population density
+    - Proportion of single-person households
+    - Proportion of residents with a non-western background","- Discrete spatial choice models were used to test interactions between activity nodes and criminal opportunity.
+- Multiple data sources were used: police records, population registration data, business location data, and a community survey.
+- The study area consisted of 76 postal codes in three municipalities in the Netherlands.
+- Data on offenders and offenses were obtained from police records.
+- Residential histories and family information were obtained from a nationwide population registration system.
+- The number of bars/restaurants/hotels was assessed using business location data.
+- Collective efficacy was measured through a community survey.
+- Conditional logit models were used for analysis.",34_awareness_x_opportunity_testing_interactions_betw
+21,"Assessing the Influence of Prior on Subsequent Street Robbery Location Choices: A Case Study in ZG City, China",2018,30_assessing_the_influence_of_prior_on_subsequent_street_robbery_location_choices.pdf,Average community size is 1.62 km²,1973 communities in ZG City,"ZG City, China",Street robbery,used: Mixed logit,for alternatives: Not explicitly mentioned,Not mentioned,Police incident reports,"- Size of the spatial unit of analysis (SUoA): Average community size is 1.62 km²
+- Calendar year(s) of the data collection: Not explicitly mentioned
+- Country or jurisdiction where the study was conducted: ZG City, China
+- Total area of the study site: 1973 communities in ZG City
+- Type of crime analyzed: Street robbery
+- Type of discrete choice model used: Mixed logit
+- Sampling approach for alternatives: Not explicitly mentioned
+- Independent variables included in the model: Time interval between robberies, distance of journey to prior robbery, arrest status during prior robbery (police records)
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Community
+- Data sources used: Police incident reports
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Not explicitly mentioned","- Dependent Variable: Repeat Location
+- Independent Variables:
+  - Robbers' Individual Experiences:
+    - Time Interval Between Two Robberies
+    - Distance of Journey to Prior Robbery
+    - Not Arrested in the Act of Prior Robbery
+  - Community Characteristics:
+    - Transportation Hubs
+    - Subway Stations
+    - Bus Stops
+    - Bars and Clubs
+    - Cybercafés
+    - Malls and Supermarkets
+    - High Schools
+    - Surveillance Cameras
+    - Daily Human Mobility
+    - Socioeconomic Heterogeneity
+    - Distance of Journey to Subsequent Robbery","- Dataset: 1262 detected robberies by 527 street robbers from ZG City Public Security Bureau.
+- Method: Mixed logit model to estimate crime location choice probabilities.
+- Variables: Time interval, distance to prior robbery, arrest status, and community attributes.
+- Multicollinearity test conducted for variable selection.
+- Control for community attributes to assess utility in crime location choice.
+- Handling of group offenses as single decision-making units.",30_assessing_the_influence_of_prior_on_subsequent_street_robbery_location_choices
+22,Familiar Locations and Similar Activities: Examining the Contributions of Reliable and Relevant Knowledge in Offenders' Crime Location Choices,-,26_familiar_locations_and_similar_activities_examining.pdf,SA2s with a median land area of 1.2 km²,Not explicitly mentioned,New Zealand,"Residential burglaries, non",used: Conditional logit,for alternatives: Stratified importance sampling,"2,000","Police incident reports, administrative data","- Size of the spatial unit of analysis (SUoA): SA2s with a median land area of 1.2 km²
+- Calendar year(s) of the data collection: 2009 to 2018
+- Country or jurisdiction where the study was conducted: New Zealand
+- Total area of the study site: Not explicitly mentioned
+- Type of crime analyzed: Residential burglaries, non-residential burglaries, commercial robberies, personal robberies, extra-familial sex offenses
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Stratified importance sampling
+- Independent variables included in the model: Reliability and relevance factors (frequency, recency, duration, behavior similarity, location similarity, hour similarity, day similarity, season similarity)
+- Population per spatial unit: 2,000-4,000 residents (urban), 1,000-3,000 (rural)
+- Choice of spatial unit of analysis (SUoA): SA2s; justified by balancing spatial spill-over and heterogeneity
+- Data sources used: Police incident reports, administrative data
+- Any mention of limitations or trade-offs in SUoA selection: Challenges in using police administrative data
+- Main findings related to SUoA size or model performance: Importance of reliability and relevance factors in crime location choices","Dependent Variable: Choice of crime location (SA2) for each offender. Independent Variables: Reliability factors (frequency, recency, duration), Relevance factors (behavior similarity, location similarity, hour similarity, day similarity, season similarity), Opportunity variables (number of potential crime targets).","- Used discrete choice models to analyze pre-offense activity locations and crime location choices.
+- Employed discrete spatial choice models (DSCMs) for spatial choices.
+- Data sourced from New Zealand Police National Intelligence Application (NIA).
+- Alternatives were neighborhoods defined by 'Statistical Area 2' Census Units (SA2s).
+- Stratified importance sampling was used to sample alternatives.
+- Conditional logit models were used to estimate expected utility.
+- Opportunity variables derived from census and business demography data.",26_familiar_locations_and_similar_activities_examining
+23,Traveling Alone or Together? Neighborhood Context on Individual and Group Juvenile and Adult Burglary Decisions,2022,27_traveling_alone_or_together_neighborhood_context.pdf,block group,Entire city of Tampa,"United States (Tampa, Florida)",Burglary,used: Conditional logit,for alternatives: Not mentioned,Not mentioned,"Police incident reports, US Census data","- Size of the spatial unit of analysis (SUoA): block group
+- Calendar year(s) of the data collection: January 2000 to September 2012
+- Country or jurisdiction where the study was conducted: United States (Tampa, Florida)
+- Total area of the study site: Entire city of Tampa
+- Type of crime analyzed: Burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Concentrated disadvantage, residential stability, racial/ethnic heterogeneity, percent occupied housing units
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Block group, chosen for meaningful sociodemographic data
+- Data sources used: Police incident reports, US Census data
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Burglars target locations nearby with low social control","- Dependent Variable: Likelihood of a neighborhood being selected for burglary (dichotomous)
+- Independent Variables:
+  - Concentrated disadvantage (factor score)
+  - Residential stability (factor score)
+  - Racial/ethnic heterogeneity (Herfindahl Index)
+  - Percent occupied housing units
+  - Relative economic inequality (Gini coefficient)
+  - Racial composition (percent Black residents, percent Latino residents)
+  - Distance from suspect's home to target neighborhood (Euclidean distance)","- Used discrete choice modeling to analyze neighborhood selection by adult and juvenile burglars.
+- Dataset included all suspects arrested for burglary in Tampa, Florida, over a 13-year period.
+- Separated offenders by age (adults vs. juveniles) and group affiliation (solo vs. group offenders).
+- Employed a conditional logit model to predict neighborhood selection probability.
+- Geocoded incident and home addresses using ArcGIS.
+- Excluded incidents with unknown or incorrect addresses and those outside city boundaries.
+- Used demographic and economic data from the US Census to assess neighborhood characteristics.
+- Used seemingly unrelated estimation to compare models.",27_traveling_alone_or_together_neighborhood_context
+24,Divergent Decision-Making in Context: Neighborhood Context Shapes Effects of Physical Disorder and Spatial Knowledge on Burglars' Location Choice,-,25_divergent_decision-making_in_context_neighborhood.pdf,0.958km² (average size of communities in the analytical sample),Central urban area of the city of ZG,China,Burglary,used: Conditional logit,for alternatives: Not mentioned,"5,957 (average)","Police arrest records, mobile phone mobility data, street view images, point of interest data, census data","- Size of the spatial unit of analysis (SUoA): 0.958km² (average size of communities in the analytical sample)
+- Calendar year(s) of the data collection: 2017-2018
+- Country or jurisdiction where the study was conducted: China
+- Total area of the study site: Central urban area of the city of ZG
+- Type of crime analyzed: Burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Neighborhood concentrated disadvantage, mobility flows, physical disorder, socio-demographic characteristics
+- Population per spatial unit: 5,957 (average)
+- Choice of spatial unit of analysis (SUoA): Communities (juweihui or cunweihui)
+- Data sources used: Police arrest records, mobile phone mobility data, street view images, point of interest data, census data
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned","- Dependent Variable: Burglars' target location choice
+- Independent Variables:
+  - Concentrated disadvantage of the target neighborhood
+  - Normalized mobility flow between origin and target neighborhoods
+  - Level of physical disorder in the target neighborhood
+  - Distance between burglar's home and target
+  - Population size of the target community
+  - Presence of post-2000 buildings
+  - High-rise buildings
+  - Subway stations
+  - Bus stops
+  - Parks
+  - Entertainment venues","- Measured physical disorder using computer vision algorithms on 107,858 street view images.
+- Used geo-referenced mobile phone flows to approximate spatial knowledge.
+- Employed discrete choice models for analysis.
+- Focused on the city of ZG in southeast China, using communities as the unit of analysis.
+- Combined police arrest data, mobile phone mobility data, street view images, POI data, and census data.
+- Constructed neighborhood concentrated disadvantage based on seven social and economic factors.
+- Used conditional logit models to predict burglary choice.",25_divergent_decision-making_in_context_neighborhood
+25,Relationships Between Offenders' Crime Locations and Different Prior Activity Locations as Recorded in Police Data,-,28_relationships_between_offenders_crime_locations.pdf,"Statistical Area 2 (SA2), median land area 1.2km²",Entire country (implied),New Zealand,"Residential burglaries, non",used: Conditional logit model,for alternatives: Stratified importance sampling,2000,"New Zealand Police National Intelligence Application (NIA), New Zealand Statistics Census and Business Demography data","- Size of the spatial unit of analysis (SUoA): Statistical Area 2 (SA2), median land area 1.2km²
+- Calendar year(s) of the data collection: 2009-2018
+- Country or jurisdiction where the study was conducted: New Zealand
+- Total area of the study site: Entire country (implied)
+- Type of crime analyzed: Residential burglaries, non-residential burglaries, commercial robberies, personal robberies, extra-familial sex offences
+- Type of discrete choice model used: Conditional logit model
+- Sampling approach for alternatives: Stratified importance sampling
+- Independent variables included in the model: Presence/absence of activity nodes within SA2s and distance bands, opportunity variables (number of potential targets)
+- Population per spatial unit: 2000-4000 residents in urban areas, 1000-3000 in rural areas
+- Choice of spatial unit of analysis (SUoA): SA2, justified by approximation to neighborhoods and use in other studies
+- Data sources used: New Zealand Police National Intelligence Application (NIA), New Zealand Statistics Census and Business Demography data
+- Limitations or trade-offs in SUoA selection: Potential under-representation of certain activity nodes due to data limitations","- Dependent Variable: Location choice for each offender (SA2 where the reference offence was committed)
+- Independent Variables:
+  - Presence or absence of activity nodes within distance bands:
+    - Home
+    - Family homes
+    - School
+    - Work
+    - Prior crimes
+    - Prior victim/witness events
+    - Other locations
+  - Opportunity variables:
+    - Number of dwellings (residential burglary)
+    - Number of business units (non-residential burglary)
+    - Number of business units in specific industries (commercial robbery)
+    - Number of business units in commercial or public industries (personal robbery)
+    - Number of business units (sex offences)","- Discrete spatial choice models (DSCM) were used to analyze relationships between activity locations and crime locations.
+- The New Zealand Census Unit 'Statistical Area 2' (SA2) was used as the spatial unit of analysis.
+- A stratified importance sampling approach was used to construct alternative locations.
+- Conditional logit models were used to test hypotheses.
+- The study included various activity locations such as homes, family homes, schools, prior crimes, and other police interactions.",28_relationships_between_offenders_crime_locations
+26,WHERE OFFENDERS CHOOSE TO ATTACK: A DISCRETE CHOICE MODEL OF ROBBERIES IN CHICAGO*,2009,22_where_offenders_choose_to_attack_a_discrete_choice_model.pdf,Census tract,Entire city of Chicago,United States (Chicago),Robbery,used: Conditional logit,for alternatives: Not mentioned,Not mentioned,"Census data, police records, administrative data","- Size of the spatial unit of analysis (SUoA): Census tract
+- Calendar year(s) of the data collection: 1996-1998
+- Country or jurisdiction where the study was conducted: United States (Chicago)
+- Total area of the study site: Entire city of Chicago
+- Type of crime analyzed: Robbery
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Distance, racial and ethnic dissimilarity, gang territorial dissimilarity, drug arrests, prostitution arrests, high school presence, retail employment, collective efficacy
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Census tract; justified by data availability and computational considerations
+- Data sources used: Census data, police records, administrative data
+- Any mention of limitations or trade-offs in SUoA selection: Using smaller units could provide more detailed insights but requires significant computational resources","- Dependent Variable: Choice of target area for robbery
+- Independent Variables:
+  - Distance from home
+  - Presence of crime generators and attractors
+  - Social barriers:
+    - Racial and ethnic dissimilarity
+    - Gang territorial dissimilarity
+  - Measures of attractive targets:
+    - Drug dealers and their customers
+    - Prostitutes and their customers
+    - High school students
+    - Retail employment
+  - Collective efficacy
+  - Individual-level interactions:
+    - Age of the offender
+    - Racial/ethnic background of the offender","- Discrete choice model based on random utility maximization
+- Data: Cleared robbery cases, offender information, community characteristics
+- Spatial unit of analysis: Census tracts
+- Cross-validation method used
+- Analysis conducted using clogit procedure in Stata software",22_where_offenders_choose_to_attack_a_discrete_choice_model
+27,Relative Difference and Burglary Location: Can Ecological Characteristics of a Burglar's Home Neighborhood Predict Offense Location?,2016,24_relative_difference_and_burglary_location.pdf,census block group,entire city of Tampa,"United States, City of Tampa, Florida",burglary,used: conditional logit,for alternatives: all 334 block groups in Tampa,not mentioned,"police incident reports, census data","- Size of the spatial unit of analysis (SUoA): census block group
+- Calendar year(s) of the data collection: January 2000 through September 2012
+- Country or jurisdiction where the study was conducted: United States, City of Tampa, Florida
+- Total area of the study site: entire city of Tampa
+- Type of crime analyzed: burglary
+- Type of discrete choice model used: conditional logit
+- Sampling approach for alternatives: all 334 block groups in Tampa
+- Independent variables included in the model: concentrated disadvantage, residential stability, racial/ethnic heterogeneity, percentage of occupied units
+- Population per spatial unit: not mentioned
+- Choice of spatial unit of analysis (SUoA): census block group, justified by minimizing within neighborhood heterogeneity and ensuring contextual data availability
+- Data sources used: police incident reports, census data
+- Any mention of limitations or trade-offs in SUoA selection: inability to control for differences related to the age of the suspect or his criminal history, lack of information on unreported burglaries","- Dependent variable: Binary variable indicating the neighborhood where a burglary was committed.
+- Independent variables:
+  - Concentrated disadvantage index (percentage of residents below poverty, percentage of unemployed, median income, median home value).
+  - Residential stability index (average length of residence, percentage of households that moved in within the last five years, percentage of homeowners).
+  - Single-parent households.
+  - Racial/ethnic heterogeneity (Herfindahl Index).
+  - Percentage of occupied units.
+  - Percentage of Black residents.
+  - Percentage of Latino residents.","- Utilized discrete choice modeling on all arrests for burglaries in Tampa, Florida, from January 2000 through September 2012.
+- Collected data on address information for both offenders' home neighborhoods and target neighborhoods.
+- Used geocoding to map addresses and excluded cases with incorrect or missing information.
+- Aggregated data to census block groups to minimize within-neighborhood heterogeneity.
+- Included demographic and economic data from the U.S. Census to create indices for concentrated disadvantage and residential stability.
+- Calculated Euclidean distances between home and target neighborhoods.
+- Employed a conditional logit model to evaluate neighborhood selection likelihood.",24_relative_difference_and_burglary_location
+28,Crime Feeds on Legal Activities: Daily Mobility Flows Help to Explain Thieves' Target Location Choices,-,29_crime_feeds_on_legal_activities_daily_mobility_fl.pdf,"Census unit, average size 1.62 km²",More than 3000 km²,"ZG City, southeast China",Theft from the person (TFP),used: Conditional logit,for alternatives: Full choice set,Mean population 5956,Police incident reports from ZG City,"- Size of the spatial unit of analysis (SUoA): Census unit, average size 1.62 km²
+- Calendar year(s) of the data collection: Not explicitly mentioned
+- Country or jurisdiction where the study was conducted: ZG City, southeast China
+- Total area of the study site: More than 3000 km²
+- Type of crime analyzed: Theft from the person (TFP)
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Number of primary schools, middle schools, hospitals, basic stores, markets, supermarkets, restaurants, cinemas, bars, banks, subway stations, bus stops per census unit
+- Population per spatial unit: Mean population 5956
+- Choice of spatial unit of analysis (SUoA): Census unit, chosen for size similarity and homogeneity
+- Data sources used: Police incident reports from ZG City
+- Any mention of limitations or trade-offs in SUoA selection: Exclusion of 275 census units due to lack of mobility data coverage
+- Main findings related to SUoA size or model performance: Not explicitly mentioned","- Dependent Variable: Location where individual thieves commit crimes.
+- Independent Variables:
+  - Distance between the offender's home and potential crime locations.
+  - Crime generators:
+    - Primary schools
+    - Middle schools
+    - Hospitals
+    - Basic stores
+    - Markets
+    - Supermarkets
+    - Restaurants
+    - Cinemas
+    - Bars
+    - Banks
+    - Subway stations
+    - Bus stops
+  - Population heterogeneity: Proportion of non-locals (Hukou status).
+  - Daily mobility flows of the general population as measured by mobile phone data.","- Geocoded tracks of mobile phones are used to estimate population mobility between communities.
+- Discrete choice models are applied to assess the impact of mobility flows on crime location choices.
+- Data on 3436 police-recorded thefts from the person are used.
+- Census units are used as the spatial unit of analysis.
+- Mobile phone data from a major provider is used to construct mobility flow measures.
+- Conditional logit models are used to analyze distance, crime generators, and mobility flows.",29_crime_feeds_on_legal_activities_daily_mobility_fl
+29,"""Location, Location, Location"": Effects of Neighborhood and House Attributes on Burglars' Target Selection",-,23_location_location_location_effects_of_neighbo.pdf,Neighborhood,Approximately 156 km²,Belgium,Burglary,used: Conditional logit,for alternatives: Full choice set,Not explicitly mentioned,"Police records, Census data","- Size of the spatial unit of analysis (SUoA): Neighborhood
+- Calendar year(s) of the data collection: 2005-2014
+- Country or jurisdiction where the study was conducted: Belgium
+- Total area of the study site: Approximately 156 km²
+- Type of crime analyzed: Burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Neighborhood-level attributes (residential density, prior burglary activity) and residence-level attributes (building type, rental status)
+- Population per spatial unit: Not explicitly mentioned
+- Choice of spatial unit of analysis (SUoA): Neighborhood
+- Data sources used: Police records, Census data
+- Any mention of limitations or trade-offs in SUoA selection: Reliance on detected and cleared burglaries; mismatch in data collection years","- Neighborhood-level attributes:
+  - Residential density
+  - Median income
+  - Proportion of non-Belgians
+  - Proportion of rental units
+  - Prior burglary activity in the neighborhood
+- Residence-level attributes:
+  - Building type (detached, semi-detached, terraced, apartment)
+  - Number of occupants
+  - Number of residential units in the building
+  - Rental status
+  - Distance from the burglar's home","- Discrete spatial choice approach
+- Conditional logit model
+- Combination of police-recorded and Census data
+- Six selection criteria for burglary cases
+- Estimation of main effects and cross-level interaction effects",23_location_location_location_effects_of_neighbo
+30,"EFFECTS OF ATTRACTIVENESS, OPPORTUNITY AND ACCESSIBILITY TO BURGLARS ON RESIDENTIAL BURGLARY RATES OF URBAN NEIGHBORHOODS",2003,21_effect_attractiveness_opportunity_and_accessibility.pdf,"Neighborhoods, average size 0.65 km²",Entire city of The Hague,"The Hague, Netherlands",Residential burglary,used: Not explicitly mentioned,for alternatives: Not explicitly mentioned,"Average 4,950 residents per neighborhood","Municipal statistics, police records","- Size of the spatial unit of analysis (SUoA): Neighborhoods, average size 0.65 km²
+- Calendar year(s) of the data collection: 1996-2001
+- Country or jurisdiction where the study was conducted: The Hague, Netherlands
+- Total area of the study site: Entire city of The Hague
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Not explicitly mentioned
+- Sampling approach for alternatives: Not explicitly mentioned
+- Independent variables included in the model: Ethnic heterogeneity, residential mobility, real estate value, home ownership, proximity to burglars' homes, proximity to CBD
+- Population per spatial unit: Average 4,950 residents per neighborhood
+- Choice of spatial unit of analysis (SUoA): Neighborhoods
+- Data sources used: Municipal statistics, police records
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: Not explicitly discussed","- Dependent Variable: Burglary rate
+- Independent Variables:
+  - Attractiveness:
+    - Higher percentages of home ownership
+    - Higher average real estate values
+  - Opportunity:
+    - Higher levels of ethnic heterogeneity
+    - Higher residential mobility rates
+  - Accessibility:
+    - Greater proximity to homes of burglars (SWEBER measure)
+    - Greater proximity to the central business district","- Developed a measure called SWEBER to assess accessibility based on distance between burglars' homes and target neighborhoods.
+- Used data from The Hague, Netherlands, on ethnic heterogeneity, residential mobility, real estate value, and home ownership from municipal publications.
+- Obtained information on attempted and completed burglaries from police records.
+- Employed regression models to test hypotheses, including SWEBER and proximity to the central business district.
+- Assessed spatial autocorrelation using Moran's I statistic.",21_effect_attractiveness_opportunity_and_accessibility
+31,Testing Ecological Theories of Offender Spatial Decision Making Using a Discrete Choice Model,2015,13_testing_ecological_theories_of_offender_spatial_de.pdf,U.K. census Lower Super Output Area (LSOA),Not explicitly mentioned,"Dorset, UK",Theft from vehicles (TFV),used: Conditional logit,for alternatives: Implied full choice set within study area,"Average 1,524 people per LSOA","Police incident reports, census data","- Size of the spatial unit of analysis (SUoA): U.K. census Lower Super Output Area (LSOA)
+- Calendar year(s) of the data collection: 2001-2005
+- Country or jurisdiction where the study was conducted: Dorset, UK
+- Total area of the study site: Not explicitly mentioned
+- Type of crime analyzed: Theft from vehicles (TFV)
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Implied full choice set within study area
+- Independent variables included in the model: Distance to offender’s home, distance to city center, presence of schools, presence of train stations, connectivity via major roads, population turnover, socioeconomic heterogeneity, number of car parks, number of cars and vans
+- Population per spatial unit: Average 1,524 people per LSOA
+- Choice of spatial unit of analysis (SUoA): LSOA; justified by previous studies and fine resolution
+- Data sources used: Police incident reports, census data
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly discussed","- Dependent variable: Choice of area where offenders commit crimes
+- Independent variables:
+  - Distance to offender’s home
+  - Distance to city center
+  - Presence of school(s)
+  - Presence of train station(s)
+  - Connectivity: Major road
+  - Population turnover
+  - Socioeconomic heterogeneity
+  - Number of car parks
+  - Number of cars and vans","- Discrete choice model to analyze offender spatial decision making
+- Data from detected incidents of theft from vehicles in Dorset, UK (2001-2005)
+- Unit of analysis: Lower Super Output Area (LSOA)
+- Robust standard errors used for statistical inference
+- Models estimated using STATA 10 SE",13_testing_ecological_theories_of_offender_spatial_de
+32,Situating Crime Pattern Theory Into The Explanation Of Co-Offending: Considering Area-Level Convergence Spaces,2021,15_situating_crime_pattern_theory_into_the_explanation.pdf,"Census block group, approximately 0.36 km²",Entire city of Baltimore,"Baltimore City, Maryland, USA",Group crime (co,used: Not mentioned,for alternatives: Not mentioned,Average of 953 residents per census block group,"Police incident reports, census data, Environmental Protection Agency's Smart Location Database","- Size of the spatial unit of analysis (SUoA): Census block group, approximately 0.36 km²
+- Calendar year(s) of the data collection: 2013-2016
+- Country or jurisdiction where the study was conducted: Baltimore City, Maryland, USA
+- Total area of the study site: Entire city of Baltimore
+- Type of crime analyzed: Group crime (co-offending)
+- Type of discrete choice model used: Not mentioned
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Number of bars, number of schools, number of transit stops, number of shopping outlets, auto-network density, pedestrian-network density, racial/ethnic heterogeneity, percent poverty, percent turnover, population density, group crime spatial lag, solo crime rate
+- Population per spatial unit: Average of 953 residents per census block group
+- Choice of spatial unit of analysis (SUoA): Census block group; justified by prior research and small size in urban context
+- Data sources used: Police incident reports, census data, Environmental Protection Agency's Smart Location Database
+- Any mention of limitations or trade-offs in SUoA selection: Limited generalizability due to single city study; potential geocoding and data completeness issues","- Dependent variable: Rate of group crime events in a given census block group
+- Independent variables:
+  - Activity nodes: Bars, schools, transit stations, shopping centers
+  - Street connectivity measures: Auto-oriented street density, pedestrian-oriented street density
+  - Social disorganization factors: Racial/ethnic heterogeneity, population turnover, poverty
+  - Population density
+  - Solo crime rate","- Data sources: Environmental Protection Agency for street connectivity, Baltimore City arrest data (2013-2016), Baltimore City Open Data Portal for activity nodes, American Community Survey for contextual covariates.
+- Data merging: Combined datasets to analyze environmental features and group crime rates.
+- Statistical analysis: Spatially lagged negative binomial regression models to account for spatial clustering.
+- Controls: Population density, ethnic heterogeneity, poverty, solo crime rates.",15_situating_crime_pattern_theory_into_the_explanation
+33,HOW DO RESIDENTIAL BURGLARS SELECT TARGET AREAS? A New Approach to the Analysis of Criminal Location Choice,2005,18_how_do_residential_burglars_select_target_areas.pdf,Neighborhoods (average size 0.65 km²),Entire city of The Hague,"The Hague, Netherlands",Residential burglary,used: Conditional logit,for alternatives: Full choice set (all neighborhoods in The Hague),"Average 4,952 residents per neighborhood","Police incident reports, municipal statistics","- Size of the spatial unit of analysis (SUoA): Neighborhoods (average size 0.65 km²)
+- Calendar year(s) of the data collection: 1996-2001
+- Country or jurisdiction where the study was conducted: The Hague, Netherlands
+- Total area of the study site: Entire city of The Hague
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set (all neighborhoods in The Hague)
+- Independent variables included in the model: Ethnic heterogeneity, residential mobility, real estate value, percentage of single-family dwellings, number of residential units, proximity to burglar's home, proximity to city center
+- Population per spatial unit: Average 4,952 residents per neighborhood
+- Choice of spatial unit of analysis (SUoA): Neighborhoods; justified by data availability and focus on residential burglary patterns
+- Data sources used: Police incident reports, municipal statistics
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: Not explicitly mentioned","- Dependent Variable: Likelihood of a neighbourhood being selected for burglary
+- Independent Variables:
+  - Affluence (average residential real estate value)
+  - Ethnic heterogeneity
+  - Percentage of single-family dwellings
+  - Proximity to the offender's home
+  - Number of residential units","- Discrete spatial choice approach
+- Conditional logit model
+- Maximum likelihood methods for parameter estimation",18_how_do_residential_burglars_select_target_areas
+34,Co-offending and the Choice of Target Areas in Burglary,-,19_cooffending_and_the_choice_of_target_areas_in_bur.pdf,Neighborhood,The Hague,Netherlands,Residential burglary,used: Conditional logit,for alternatives: Not mentioned,"Average of 4,952 residents per neighborhood","Police records, real estate registration","- Size of the spatial unit of analysis (SUoA): Neighborhood
+- Calendar year(s) of the data collection: 1996-2004
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: The Hague
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Affluence, physical accessibility, social disorganization
+- Population per spatial unit: Average of 4,952 residents per neighborhood
+- Choice of spatial unit of analysis (SUoA): Neighborhood
+- Data sources used: Police records, real estate registration
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Proximity to home neighborhood and physical accessibility are key factors in choosing target areas.","- Affluence: Average value of residential properties, percentage of owner-occupied properties, mean income per resident
+- Physical accessibility: Percentage of single-family properties, percentage of terraced properties
+- Social disorganisation: Ethnic heterogeneity, residential mobility
+- Proximity to the city centre: Distance to the Zuidwal neighbourhood
+- Number of properties: Control variable","- Data collection: Police records of residential burglaries in The Hague (1996-2004).
+- Data selection: All persons arrested at least once for residential burglary.
+- Distance calculation: Using neighborhood centroids.
+- Statistical analysis: Random utility maximization (RUM) approach and conditional logit model.",19_cooffending_and_the_choice_of_target_areas_in_bur
+35,LEARNING WHERE TO OFFEND EFFECTS OF PAST ON FUTURE BURGLARY LOCATIONS,2015,17_learning_where_to_offend_effects_of_past_on_future_burglary_locations.pdf,UK Census Lower Level Super Output Area (LSOA),West Midlands,United Kingdom,Burglary,used: Multinomial logit model,for alternatives: Not mentioned,"Approximately 1,500 residents and 600 households","Police records, census data","- Size of the spatial unit of analysis (SUoA): UK Census Lower Level Super Output Area (LSOA)
+- Calendar year(s) of the data collection: 2007-2012
+- Country or jurisdiction where the study was conducted: United Kingdom
+- Total area of the study site: West Midlands
+- Type of crime analyzed: Burglary
+- Type of discrete choice model used: Multinomial logit model
+- Sampling approach for alternatives: Not mentioned
+- Independent variables included in the model: Distance to burglar's residence, distance to city center, total number of households, average house price, ethnic diversity, population turnover
+- Population per spatial unit: Approximately 1,500 residents and 600 households
+- Choice of spatial unit of analysis (SUoA): LSOA
+- Data sources used: Police records, census data
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Not mentioned","- Dependent Variable: Likelihood of a burglar targeting a particular LSOA for a burglary
+- Independent Variables:
+  - Unique identifier for the offender involved
+  - Time and date of the burglary
+  - Address and geographic grid coordinates of the burglary
+  - Spatial coordinates for the home address of the offender
+  - Population turnover
+  - Ethnic diversity
+  - House price sales
+  - Location of bus and rail stations
+  - Surface area of LSOA
+  - Number of bus stations in LSOA
+  - Number of train stations in LSOA
+  - Distance to city center
+  - Number of households in LSOA
+  - Number of single-family residences in LSOA
+  - Mean house price in LSOA
+  - Ethnic diversity in LSOA
+  - Population turnover in LSOA
+  - Temporal proximity of prior burglaries
+  - Spatial proximity of prior burglaries","- Data source: 3,337 detected burglaries from a UK police force
+- Spatial unit of analysis: UK Census Lower Level Super Output Area (LSOA)
+- Method: Discrete spatial choice modeling using a multinomial logit model
+- Variables: Distance to offender's residence, prior burglaries in same LSOA and MSOA, other area characteristics
+- Results: Presented as odds ratios and confidence intervals",17_learning_where_to_offend_effects_of_past_on_future_burglary_locations
+36,Burglar Target Selection: A Crossnational Comparison,2015,20_burglar_target_selection_a_cross_national_compari copy.pdf,"neighborhoods in The Hague, Super Output Areas in Birmingham, Statistical Local Areas in Brisbane","Not explicitly mentioned, but described as neighborhoods, Super Output Areas, and Statistical Local Areas","Netherlands, United Kingdom, Australia",Residential burglary,used: Conditional logit,for alternatives: Full choice set,Not explicitly mentioned,"Police records for cleared offenses, census or administrative data","- Size of the spatial unit of analysis (SUoA): neighborhoods in The Hague, Super Output Areas in Birmingham, Statistical Local Areas in Brisbane
+- Calendar year(s) of the data collection: 1996–2001 for The Hague, 2009 for Birmingham, 2006 for Brisbane
+- Country or jurisdiction where the study was conducted: Netherlands, United Kingdom, Australia
+- Total area of the study site: Not explicitly mentioned, but described as neighborhoods, Super Output Areas, and Statistical Local Areas
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Number of households, proportion of single-family dwellings, residential mobility, proximity to offender residence, proximity to city center, residential real estate value
+- Population per spatial unit: Not explicitly mentioned
+- Choice of spatial unit of analysis (SUoA): Neighborhoods, Super Output Areas, Statistical Local Areas; chosen based on equivalence in size of known burglar population and number of targets
+- Data sources used: Police records for cleared offenses, census or administrative data
+- Any mention of limitations or trade-offs in SUoA selection: Limitations related to cleared offense data and assumption about crime trip origins
+- Main findings related to SUoA size or model performance: Differences in target density may impact findings","- Number of households (target availability)
+- Proportion of single-family dwellings (target accessibility)
+- Residential mobility (community stability)
+- Proximity to offender's home (effort)
+- Proximity to city center (effort)
+- Residential real estate value (affluence)","- Discrete spatial choice approach to analyze burglary placement.
+- Combined cleared burglary data from three countries into a single statistical model.
+- Collected data on geographical units, offenders, and offense locations.
+- Used a conditional logit model with maximum likelihood estimation.
+- Adapted discrete choice methods from microeconomics.
+- Formalized hypotheses using a utility function with explanatory variables.",20_burglar_target_selection_a_cross_national_compari copy
+37,ROLE OF THE STREET NETWORK IN BURGLARS' SPATIAL DECISION-MAKING *,2017,08_role_of_the_street_network_in_burglars_spatial_de.pdf,street segment,approximately 150 km²,United Kingdom,residential burglary,used: mixed logit,for alternatives: full choice set,Not mentioned,"police incident reports, census data, property sales data","- Size of the spatial unit of analysis (SUoA): street segment
+- Calendar year(s) of the data collection: 2004-2014
+- Country or jurisdiction where the study was conducted: United Kingdom
+- Total area of the study site: approximately 150 km²
+- Type of crime analyzed: residential burglary
+- Type of discrete choice model used: mixed logit
+- Sampling approach for alternatives: full choice set
+- Independent variables included in the model: idiosyncratic farness, idiosyncratic betweenness, pedestrian and vehicular betweenness, ethnic heterogeneity, residential turnover, socioeconomic heterogeneity, affluence, number of dwellings
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): street segment; justified by capturing spatial logic of decision-making
+- Data sources used: police incident reports, census data, property sales data
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: Mixed logit models provide better insights into individual taste preferences across offenders","Dependent Variable: Occurrence of residential burglaries on street segments
+
+Independent Variables:
+- Idiosyncratic Farness
+- Idiosyncratic Betweenness
+- Local Pedestrian Betweenness
+- Nonlocal Pedestrian Betweenness
+- Vehicular Betweenness
+- Ethnic Heterogeneity
+- Residential Turnover
+- Socioeconomic Heterogeneity
+- Affluence
+- Number of Dwellings","- Mixed logit (discrete choice) model to model offender spatial decision-making.
+- Novel graph theory metrics to estimate offender awareness and ambient guardianship.
+- Discrete choice approach to compare targeted and non-targeted opportunities.
+- Mixed logit models to account for variation in offender preferences.
+- Specification of decision-makers, choice-set, and choice criterion.",08_role_of_the_street_network_in_burglars_spatial_de
+38,Modelling taste heterogeneity regarding offence location choices,2019,16_modelling_taste_heterogeneity_regarding_offence_lo.pdf,Neighbourhoods,Approximately 270 km²,"York, UK",Serious acquisitive crime (SAC),"used: Conditional logit (CL), mixed logit (ML), latent class logit (LCL)",for alternatives: Not explicitly mentioned; choice set restricted to York,Not mentioned,"Police records, UK Census","- Size of the spatial unit of analysis (SUoA): Neighbourhoods
+- Calendar year(s) of the data collection: April 2008 to March 2012
+- Country or jurisdiction where the study was conducted: York, UK
+- Total area of the study site: Approximately 270 km²
+- Type of crime analyzed: Serious acquisitive crime (SAC)
+- Type of discrete choice model used: Conditional logit (CL), mixed logit (ML), latent class logit (LCL)
+- Sampling approach for alternatives: Not explicitly mentioned; choice set restricted to York
+- Independent variables included in the model: Distance from home, distance to city center, ethnic heterogeneity, socioeconomic heterogeneity, residential churn, affluence, previous offence locations, number of potential targets
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Neighbourhoods; smallest units for which data is available
+- Data sources used: Police records, UK Census
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: LCL and ML models fit better than CL, indicating preference heterogeneity","- Dependent Variable: Offence location choices
+- Independent Variables:
+  - Distance from the offender's home
+  - Distance to the city centre
+  - Ethnic heterogeneity
+  - Socioeconomic heterogeneity
+  - Residential churn
+  - Affluence
+  - Previous offence locations
+  - Number of potential targets","- Discrete choice models: CL, ML, LCL
+- Software: Stata 14
+- LCL estimation: Expectation-maximisation (EM)
+- CL estimation: Maximum likelihood estimation
+- ML estimation: Hierarchical Bayes
+- Study area: York, UK
+- Data: 1,105 recorded SAC by 687 offenders (2008-2012)",16_modelling_taste_heterogeneity_regarding_offence_lo
+39,Graffiti Writers Choose Locations That Optimize Exposure,2024,03_graffiti_writers_choose_locations_that_optimize_exposure.pdf,street segments,city center of Ghent,"Ghent, Belgium",graffiti writing,used: conditional logit,for alternatives: full choice set of street segments,Not mentioned,systematic social observation (SSO),"- Size of the spatial unit of analysis (SUoA): street segments
+- Calendar year(s) of the data collection: November 2017
+- Country or jurisdiction where the study was conducted: Ghent, Belgium
+- Total area of the study site: city center of Ghent
+- Type of crime analyzed: graffiti writing
+- Type of discrete choice model used: conditional logit
+- Sampling approach for alternatives: full choice set of street segments
+- Independent variables included in the model: presence of bars, night shops, residential units, schools (inferred from focus on exposure)
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): street segments, justified by their relevance for measuring exposure
+- Data sources used: systematic social observation (SSO)
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: Not explicitly detailed","- Dependent variable: Location choice of graffiti writers (number of graffiti instances on each street segment)
+- Independent variables:
+  - Presence of bars
+  - Presence of night shops
+  - Presence of nightclubs
+  - Presence of restaurants
+  - Presence of schools
+  - Presence of residential units
+  - Street network centrality (betweenness)
+  - Street segment surface size
+  - Type of street segment (bridge, intersection, regular segment)
+  - Presence of trees along the street","- Systematic Social Observation (SSO) was used to collect data on graffiti instances and public facilities in Ghent's city center.
+- Conditional logit models were used to assess the impact of street segment characteristics on graffiti location choices.
+- A discrete spatial choice model, specifically the conditional logit model, was employed to analyze graffiti writers' preferences.
+- Data collection was conducted by a team of observers who recorded graffiti and facilities that attract crowds.
+- Street segments were used as the spatial unit of analysis.
+- A Poisson model was used for computational ease, equivalent to the conditional logit model.",03_graffiti_writers_choose_locations_that_optimize_exposure
+40,Modelling the spatial decision making of terrorists: the discrete choice approach,2019,12_modelling_the_spatial_decision_making_of_terrorist.pdf,Small Areas (SAs) in Belfast,City of Belfast,Northern Ireland,Terrorism (PIRA attacks),used: Conditional logit,for alternatives: Full choice set,Not mentioned,"NISRA, The Irish Times newspaper archives","- Size of the spatial unit of analysis (SUoA): Small Areas (SAs) in Belfast
+- Calendar year(s) of the data collection: 1969-1989
+- Country or jurisdiction where the study was conducted: Northern Ireland
+- Total area of the study site: City of Belfast
+- Type of crime analyzed: Terrorism (PIRA attacks)
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Distance from home, distance to city center, river as a barrier, major roads, military bases/police stations
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Small Areas (SAs), chosen for statistical purposes
+- Data sources used: NISRA, The Irish Times newspaper archives
+- Any mention of limitations or trade-offs in SUoA selection: Arbitrary boundaries, lack of ecological meaning, inability to include social context variables
+- Main findings related to SUoA size or model performance: Smaller units could provide more detailed insights, larger units help relax IIA effects","- Dependent variable: Likelihood of an area being selected as a target for an attack
+- Independent variables:
+  - Distance from the terrorist's home to the attack site
+  - Presence of a major road
+  - Presence of a military base or police station
+  - Natural barriers (e.g., rivers)","- Used a discrete choice model to analyze terrorist spatial decision making.
+- Employed a conditional logistic regression to determine target selection characteristics.
+- Utilized the discrete choice approach to model target selection based on utility.
+- Geocoded attack locations to small areas (SAs).
+- Analyzed dataset of 150 attacks by 127 PIRA members.
+- Used a conditional logit model to test hypotheses.",12_modelling_the_spatial_decision_making_of_terrorist
+41,Spatial analysis with preference specification of latent decision makers for criminal event prediction,2006,11_spatial_analysis_with_preference_specification_of.pdf,2517 regular grids,Entire city of Richmond,"United States (Richmond, VA)",Residential breaking and entering (B&E),used: Multinomial logit model,for alternatives: Aggregated alternatives into a grid system,Not mentioned,Police incident reports and census data,"- Size of the spatial unit of analysis (SUoA): 2517 regular grids
+- Calendar year(s) of the data collection: 1997
+- Country or jurisdiction where the study was conducted: United States (Richmond, VA)
+- Total area of the study site: Entire city of Richmond
+- Type of crime analyzed: Residential breaking and entering (B&E)
+- Type of discrete choice model used: Multinomial logit model
+- Sampling approach for alternatives: Aggregated alternatives into a grid system
+- Independent variables included in the model: Census data and calculated distance values
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Grid system
+- Data sources used: Police incident reports and census data
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: New models outperformed traditional hot spot methods","- Independent Variables:
+  - Location component (Q)
+  - Attribute component (S)
+  - Distance to highway (D.HIGHWAY)
+  - Family density per unit area (FAM.DENSITY)
+  - Personal care expenditure per household (P.CARE.PH)
+  - Distance to hospital (D.HOSPITAL)
+- Dependent Variables:
+  - Prior probabilities P(a i aM)
+  - Predicted probabilities of future crime locations","- Combining discrete choice theory and data mining to develop point process models for spatial analysis.
+- Developing models to represent criminal preferences using discrete choice theory.
+- Two models: uniform spatial choice model (assuming uniform decision-making) and distinct spatial choice model (relaxing this assumption).
+- Clustering to identify groups of criminals with similar preferences using a mixture of probability distributions.
+- Evaluation using the Wilcoxon signed rank test to compare against traditional hot spot methods.
+- Use of data from the Regional Crime Analysis Program (ReCAP) and importance sampling for large datasets.",11_spatial_analysis_with_preference_specification_of
+42,Do Street Robbery Location Choices Vary Over Time of Day or Day of Week? A Test in Chicago,-,06_do_street_robbery_location_choices_vary_over_time.pdf,"Census blocks, median size 19,680 m² (approximately 140 × 140 m)",Entire city of Chicago,"Chicago, USA",Street robbery,used: Conditional logit,for alternatives: Sampling of alternatives technique,Not specifically mentioned,"Police incident reports, marketing research data, U.S. Census","- Size of the spatial unit of analysis (SUoA): Census blocks, median size 19,680 m² (approximately 140 × 140 m)
+- Calendar year(s) of the data collection: 1996 to 1998
+- Country or jurisdiction where the study was conducted: Chicago, USA
+- Total area of the study site: Entire city of Chicago
+- Type of crime analyzed: Street robbery
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Sampling of alternatives technique
+- Independent variables included in the model: Presence of businesses, illegal markets, accessibility features, demographic information (sourced from police records, marketing data, U.S. Census)
+- Population per spatial unit: Not specifically mentioned
+- Choice of spatial unit of analysis (SUoA): Census blocks, justified by prior research and fine-grained spatial data capture
+- Data sources used: Police incident reports, marketing research data, U.S. Census
+- Any mention of limitations or trade-offs in SUoA selection: Not explicitly mentioned
+- Main findings related to SUoA size or model performance: Not explicitly discussed","- Presence of various legal and illegal cash economies
+- Presence of high schools
+- Measures of accessibility
+- Distance from the offender's home
+- Small-scale retail activities:
+  - Bars and clubs
+  - Restaurants, fast-food outlets, and food stands
+  - Barber shops and beauty salons
+  - Liquor stores
+  - Grocery stores
+  - General merchandise stores
+  - Gas stations
+  - Laundromats
+  - Pawnshops, currency exchange, and check-cashing services
+- Illegal retail activities:
+  - Drug dealing activities (incidents)
+  - Prostitution soliciting (incidents)
+  - Gambling activities (incidents)
+- Accessibility:
+  - Main streets
+  - El stations
+- High schools
+- Block population:
+  - Total number of residents
+  - Racial and ethnic composition
+- Distance from home (negative value of the log of distance)","- Discrete location choice models for each two-hour time block and each day of the week.
+- Spatial units of analysis are census blocks.
+- Analysis includes daily and weekly temporal cycles.
+- Discrete spatial choice approach combining agent-based theorizing with discrete choice models.
+- Conditional logit model used to estimate effects of census block attributes.
+- Bootstrapping with 10 iterations for robust estimates.
+- Data from Chicago Police Department, U.S. Census, and a marketing research firm.",06_do_street_robbery_location_choices_vary_over_time
+43,Go where the money is: modeling street robbers' location choices,-,05_go_where_the_money_is_modeling_street_robbers_lo.pdf,Census block (140 m x 140 m),Entire city of Chicago,"Chicago, USA",Street robbery,used: Multinomial logit model and universal logit model,for alternatives: Random sample of 6000 census blocks per robbery,Average 118 residents per census block,"Police incident reports, census data","- Size of the spatial unit of analysis (SUoA): Census block (140 m x 140 m)
+- Calendar year(s) of the data collection: 1996-1998
+- Country or jurisdiction where the study was conducted: Chicago, USA
+- Total area of the study site: Entire city of Chicago
+- Type of crime analyzed: Street robbery
+- Type of discrete choice model used: Multinomial logit model and universal logit model
+- Sampling approach for alternatives: Random sample of 6000 census blocks per robbery
+- Independent variables included in the model: Presence of small businesses, illegal market activities, accessibility measures, racial/ethnic composition (data from police records and census)
+- Population per spatial unit: Average 118 residents per census block
+- Choice of spatial unit of analysis: Census block, justified by need to minimize aggregation bias
+- Data sources used: Police incident reports, census data
+- Any mention of limitations or trade-offs in SUoA selection: Lack of data on deterrent factors, assumption of robbers' knowledge of all blocks
+- Main findings related to SUoA size or model performance: Preference for nearby blocks and those with matching racial/ethnic backgrounds; spillover effects to adjacent blocks","- Dependent Variable: Location choice of street robbers
+- Independent Variables:
+  - Legal cash economies: presence of businesses like pawn shops, grocery stores, barber shops
+  - Illegal cash economies: drug-related incidents, prostitution-related incidents, gambling-related incidents
+  - Accessibility: main streets, El stations
+  - Demographic characteristics: population size, racial/ethnic composition
+  - Offender characteristics: age, gender, racial/ethnic background","- Utilized the discrete choice framework to assess criteria motivating location decisions of street robbers.
+- Analyzed data from nearly 13,000 robberies and approximately 18,000 offenders, focusing on cleared cases.
+- Assigned incidents to specific census blocks using longitude and latitude.
+- Collected a wide range of variables to measure attractiveness of census blocks for street robbery.
+- Employed multinomial and universal logit models to estimate effects of variables on robbery location choice.
+- Used random sampling and bootstrapping to ensure robust estimates.
+- Corrected for sample selection bias using weighted exogenous sample maximum likelihood (WESML) estimation.",05_go_where_the_money_is_modeling_street_robbers_lo
+44,The usefulness of past crime data as an attractiveness index for residential burglars,2018,07_the usefulness of past crime data as an attractive.pdf,500 m grid cells,Approximately 786 km²,Japan,Residential burglary,used: Conditional logit model,for alternatives: Grid cells as alternatives,Not mentioned,"Japanese national police register, Japanese national census","- Size of the spatial unit of analysis (SUoA): 500 m grid cells
+- Calendar year(s) of the data collection: 2004-2006
+- Country or jurisdiction where the study was conducted: Japan
+- Total area of the study site: Approximately 786 km²
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Conditional logit model
+- Sampling approach for alternatives: Grid cells as alternatives
+- Independent variables included in the model: Distance from offender's residence, number of residential units, proportion of single-family dwellings, number of past residential burglaries, past residential burglary rate
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): 500 m grid cells; justified by equal size for unbiased comparison
+- Data sources used: Japanese national police register, Japanese national census
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Past crime data significantly impact location choice; grid cells effective in analyzing residential burglary patterns","- Dependent variable: Choice of location for residential burglaries
+- Independent variables:
+  - Distance from offender's residence
+  - Number of residential units
+  - Proportion of single-family dwellings
+  - Proportion of foreigners
+  - Proportion of newcomers
+  - Number of past residential burglaries
+  - Past residential burglary rate","- Used a discrete choice model to analyze neighborhood attractiveness.
+- Utilized data from 369 solved cases by 70 offenders in 1,134 grid cells in Sendai City, Japan.
+- Examined past crime data as an index of neighborhood attractiveness.
+- Used Japanese national census data for variables like residential units, single-family dwellings, ethnic heterogeneity, and residential mobility.
+- Calculated past residential burglaries and rates from police register data (2004-2006).
+- Applied conditional logit model to estimate effects on crime location choice.",07_the usefulness of past crime data as an attractive
+45,Adolescent offenders' current whereabouts predict locations of their future crimes,2019,10_adolescent_offenders_current_whereabouts_predict.pdf,200x200m grid cells,"The Hague, the Netherlands, and its suburbs",The Netherlands,"Property and violent crimes (theft, burglary, assault, robbery, drug dealing, public order offenses)",used: Conditional logit,for alternatives: Full choice set,Not mentioned,Self,"- Size of the spatial unit of analysis (SUoA): 200x200m grid cells
+- Calendar year(s) of the data collection: 2008-2009 (first wave), 2010-2011 (second wave)
+- Country or jurisdiction where the study was conducted: The Netherlands
+- Total area of the study site: The Hague, the Netherlands, and its suburbs
+- Type of crime analyzed: Property and violent crimes (theft, burglary, assault, robbery, drug dealing, public order offenses)
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Time spent in locations, contiguity to previous crime locations, presence of businesses and schools
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Grid cells
+- Data sources used: Self-report questionnaires, space-time budget interviews, police records
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Not specifically mentioned","- Independent Variables:
+  - H B ij: Time spent in location j (5-16 hours)
+  - E A ij to E E ij: Contiguity to previously visited locations (1st to 5th order)
+  - C O ij to C E ij: Prior crimes in location j or contiguous locations (1st to 5th order)
+  - F A j: Presence of catering business in location j
+  - R B j: Presence of retail business in location j
+  - S C j: Presence of school in location j
+- Dependent Variable:
+  - Choice of crime location from 4558 possible locations","- Data collection from 843 adolescents through self-report questionnaires and space-time budget interviews.
+- Structured face-to-face interviews conducted by trained research assistants.
+- Use of police records to identify participants involved in criminal activities.
+- Discrete spatial choice approach using a conditional logit model to predict crime locations.",10_adolescent_offenders_current_whereabouts_predict
+46,"The UGent Institutional Repository is the electronic archiving and dissemination platform for all UGent research publications. Ghent University has implemented a mandate stipulating that all academic publications of UGent researchers should be deposited and archived in this repository. Except for items where current copyright restrictions apply, these papers are available in Open Access",-,01_a_discrete_spatial_choice_model_of_burglary_target.pdf,House,"Approximately 3,000 km²","Belgium, East Flanders",Burglary,used: Conditional logit,for alternatives: Simple random sampling,Approximately 1.5 million,"Belgian Federal Police, Belgian Land Registry","- Size of the spatial unit of analysis (SUoA): House
+- Calendar year(s) of the data collection: 2006 to 2012
+- Country or jurisdiction where the study was conducted: Belgium, East Flanders
+- Total area of the study site: Approximately 3,000 km²
+- Type of crime analyzed: Burglary
+- Type of discrete choice model used: Conditional logit
+- Sampling approach for alternatives: Simple random sampling
+- Independent variables included in the model: Construction type, number of floors, rooftop living floor, garage presence, central heating/air-conditioning, built surface area
+- Population per spatial unit: Approximately 1.5 million
+- Choice of spatial unit of analysis: House; justified by addressing modifiable areal unit problem and reducing aggregation bias
+- Data sources used: Belgian Federal Police, Belgian Land Registry
+- Limitations or trade-offs in SUoA selection: Not explicitly mentioned","- Dependent variable: Likelihood of a house being selected for burglary
+- Independent variables:
+  - Construction type (terraced, semi-detached, detached)
+  - Number of floors
+  - Presence of a rooftop living floor
+  - Presence of a garage
+  - Availability of central heating and/or air-conditioning system
+  - Built surface area
+  - Distance from the offender's home to the target house","- Discrete spatial choice model to analyze target selection based on house attributes.
+- Data from 650 residential burglaries and 500,000 properties in East Flanders.
+- Recorded crime data from Belgian Federal Police; property attributes from Belgian Land Registry.
+- Conditional logit model to estimate environmental feature influence.
+- Subset of alternatives used for computational efficiency.
+- Bootstrapping procedure for robustness.",01_a_discrete_spatial_choice_model_of_burglary_target
+47,Where Do Dealers Solicit Customers and Sell Them Drugs? A Micro-Level Multiple Method Study,2015,04_where_do_dealers_solicit_customers_and_sell_them_drugs.pdf,Street segments,1012 postal code area in downtown Amsterdam,Netherlands,Drug crime,used: Multinomial logit model,for alternatives: Full choice set (all 262 street segments),Not mentioned,"Interviews with drug dealers, systematic observations","- Size of the spatial unit of analysis (SUoA): Street segments
+- Calendar year(s) of the data collection: 2009-2010
+- Country or jurisdiction where the study was conducted: Netherlands
+- Total area of the study site: 1012 postal code area in downtown Amsterdam
+- Type of crime analyzed: Drug crime
+- Type of discrete choice model used: Multinomial logit model
+- Sampling approach for alternatives: Full choice set (all 262 street segments)
+- Independent variables included in the model: Potential customer attractors, activity level, accessibility, social control agents
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Street segments, justified by their ability to capture relevant features
+- Data sources used: Interviews with drug dealers, systematic observations
+- Any mention of limitations or trade-offs in SUoA selection: Street segments may be too coarse and variable
+- Main findings related to SUoA size or model performance: Street segments provide detailed insights but may still be too large and variable, suggesting smaller units for future research","- Independent Variables:
+  - Potential Customer Density:
+    - Potential Customer Attractors
+    - Activity Level
+    - Accessibility
+  - Social Control:
+    - Formal and Informal Agents of Social Control
+    - Territoriality
+    - Physical Disorder
+- Dependent Variables:
+  - Locations where dealers solicit customers
+  - Locations where dealers sell drugs","- Interviews with 50 dealers using structured and open-ended questions.
+- Systematic observations of 262 street segments in the study area.
+- Use of a scoring instrument to measure street segment characteristics.
+- Trained observers conducted observations over a specified period.
+- Qualitative and quantitative data analysis techniques were employed.
+- Multinomial logit model used for quantitative analysis.",04_where_do_dealers_solicit_customers_and_sell_them_drugs
+48,Discrete choice analysis of spatial attack sites,2007,09_discrete_choice_analysis_of_spatial_attack_sites_1.pdf,Grid cell with 170 m (north,Entire City of Richmond,"City of Richmond, Virginia, USA",Breaking and entering,used: Multinomial logit,for alternatives: Full choice set,Not mentioned,"Richmond City Records Management Center, publicly available GIS layers","- Size of the spatial unit of analysis (SUoA): Grid cell with 170 m (north-south) and 191 m (east-west) spacing
+- Calendar year(s) of the data collection: 1997
+- Country or jurisdiction where the study was conducted: City of Richmond, Virginia, USA
+- Total area of the study site: Entire City of Richmond
+- Type of crime analyzed: Breaking and entering
+- Type of discrete choice model used: Multinomial logit
+- Sampling approach for alternatives: Full choice set
+- Independent variables included in the model: Proximity measurements to 30 geographic features and 38 demographic profile variables aggregated at the census block group level
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Grid, justified by the need to discretize geographic space
+- Data sources used: Richmond City Records Management Center, publicly available GIS layers
+- Any mention of limitations or trade-offs in SUoA selection: Not mentioned
+- Main findings related to SUoA size or model performance: Not specifically mentioned in relation to SUoA size","- Independent Variables:
+  - Proximity measurements to each of 30 features in the geographic space
+  - 38 demographic profile variables aggregated at the census block group level
+  - Specific predictors: u 30, u 66, / 13, / 18, / 19, / 38, / 46, / 52, / 53, / 58, / 62
+- Dependent Variable:
+  - Probability of an attack occurring at a specific location","- Algorithm for multinomial discrete choice models to predict spatial preferences of attackers.
+- Applied to urban crime dataset from Richmond, VA, focusing on breaking and entering crimes.
+- Dataset augmented with GIS layers for proximity and census data.
+- Choice set defined by discretizing geographic space into a grid.
+- Feature selection using agglomerative clustering and Fisher's discriminant ratio.
+- Parameters estimated via maximum likelihood.
+- Evaluation metric: mean selection site percentile score.",09_discrete_choice_analysis_of_spatial_attack_sites_1
+49,Residential burglary target selection: An analysis at the property-level using Google Street View,2017,02_residential_burglary_target_selection_property_level.pdf,Individual residential properties,"Not explicitly mentioned, but involves single houses in The Hague",The Netherlands,Residential burglary,used: Conditional logistic regression,for alternatives: Case,Not mentioned,"Google Street View, police records from The Hague Police Force","- Size of the spatial unit of analysis (SUoA): Individual residential properties
+- Calendar year(s) of the data collection: 2009
+- Country or jurisdiction where the study was conducted: The Netherlands
+- Total area of the study site: Not explicitly mentioned, but involves single houses in The Hague
+- Type of crime analyzed: Residential burglary
+- Type of discrete choice model used: Conditional logistic regression
+- Sampling approach for alternatives: Case-control design with 300 single houses
+- Independent variables included in the model: Surveillability, accessibility, wealth, ease of escape
+- Population per spatial unit: Not mentioned
+- Choice of spatial unit of analysis (SUoA): Individual residential properties
+- Data sources used: Google Street View, police records from The Hague Police Force
+- Any mention of limitations or trade-offs in SUoA selection: Inability to capture isolated properties due to Google Car limitations
+- Main findings related to SUoA size or model performance: The study supports findings from offender-based literature, with surveillability, accessibility, and ease of escape being significant factors in burglary risk.","- Dependent Variable: Whether or not a residential unit was burgled in The Hague during the year 2009.
+- Independent Variables:
+  - Surveillability: Number of windows with a direct view, distance to neighboring buildings, front door visibility.
+  - Accessibility: Being at the end of a row, number of public boundaries, presence of physical barriers, burglar alarm, setback from the street, age of the building, presence of amenities.
+  - Wealth: Presence of a garage, property size, external condition.
+  - Ease of Escape: Distance to main road, distance to street corner, number of escape routes.
+- Control Variables: Business presence, mixed land-use, house type.","- Data collection: Google Street View (GSV) for Systematic Social Observation (SSO)
+- Study design: Case-control design
+- Analysis: Conditional logistic regression
+- Data sources: GSV for property-level data, community survey for neighbourhood-level data",02_residential_burglary_target_selection_property_level
