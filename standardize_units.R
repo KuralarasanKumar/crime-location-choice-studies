@@ -3,7 +3,7 @@ rm(list=ls())
 library(dplyr)
 
 # Read input data
-df_raw_data <- read.csv("20250702_Table.csv", stringsAsFactors = FALSE)
+df_raw_data <- read.csv("20250704_Table.csv", stringsAsFactors = FALSE)
 
 # Convert unit sizes to km², remove Note, sort, create Study_ID, rearrange columns
 df_data_clean <- df_raw_data %>%
@@ -19,7 +19,8 @@ df_data_clean <- df_raw_data %>%
   mutate(Study_ID = row_number()) %>%
   select(
     Study_ID, `Title_of_the_study`, Citation, `Size_of_the_unit`, Unit, 
-    Unit_size_km2, `No_of_units`, `No_of_incidents`, `Name_of_the_unit`, `Inferred_size`
+    Unit_size_km2, `No_of_units`, `No_of_incidents`, `Name_of_the_unit`, `Inferred_size`,
+    `DOI`, `ISSN`, `Journal`, `Volume`, `Issue` 
   )
 
 # Save results with UTF-8 encoding
@@ -49,7 +50,8 @@ df_data_clean <- df_data_clean %>%
   ) %>%
   select(
     Study_ID, `Title_of_the_study`, Citation, `Size_of_the_unit`, Unit, 
-    Unit_size_km2, Size_group, `Name_of_the_unit`, `No_of_units`, `No_of_incidents`, `Inferred_size`
+    Unit_size_km2, Size_group, `Name_of_the_unit`, `No_of_units`, `No_of_incidents`, `Inferred_size`,
+    `DOI`, `ISSN`, `Journal`, `Volume`, `Issue`
   )
 # Print frequency table for size groups
 print(table(df_data_clean$Size_group))
