@@ -61,9 +61,17 @@ def main():
     print("Reading main analysis table...")
     main_df = pd.read_csv('20250702_Table.csv')
     
-    # Read the bibliographic information
+    # Read the bibliographic information with encoding handling
     print("Reading bibliographic information...")
-    biblio_df = pd.read_csv('20250117_Unique_retrieved_articles.csv')
+    try:
+        biblio_df = pd.read_csv('20250117_Unique_retrieved_articles.csv')
+    except UnicodeDecodeError:
+        print("  Trying with different encoding...")
+        try:
+            biblio_df = pd.read_csv('20250117_Unique_retrieved_articles.csv', encoding='latin-1')
+        except UnicodeDecodeError:
+            print("  Trying with ISO-8859-1 encoding...")
+            biblio_df = pd.read_csv('20250117_Unique_retrieved_articles.csv', encoding='iso-8859-1')
     
     print(f"Main table has {len(main_df)} studies")
     print(f"Bibliographic table has {len(biblio_df)} articles")
