@@ -1,0 +1,51 @@
+Study_ID,PDF_File,Statistical_Method,Alternative_Sampling,Number_of_Variables,Sample_Size_Occasions,Scale_Justification_Provided,Software_Used,Convergence_Issues,Text_Length
+1,01_a_discrete_spatial_choice_model_of_burglary_target.pdf,"Multinomial Logit, Mixed Logit, Nested Logit",Importance Sampling,,546.0,Yes,R,Mentioned,68476
+2,02_residential_burglary_target_selection_property_level.pdf,Other,Random Sampling,,2911.0,No,R,Mentioned,50912
+3,03_graffiti_writers_choose_locations_that_optimize_exposure.pdf,"Multinomial Logit, Nested Logit",None,,2233.0,No,"R, SAS",Not Reported,68729
+4,04_where_do_dealers_solicit_customers_and_sell_them_drugs.pdf,Multinomial Logit,Not Clear,36.0,50.0,No,R,Not Reported,101945
+5,05_go_where_the_money_is_modeling_street_robbers_lo.pdf,"Multinomial Logit, Mixed Logit, Latent Class, Nested Logit, Other",Importance Sampling,15.0,6000.0,No,"R, Stata",Mentioned,79047
+6,06_do_street_robbery_location_choices_vary_over_time.pdf,Multinomial Logit,Not Clear,18.0,11999.0,Yes,R,Mentioned,71210
+7,07_the usefulness of past crime data as an attractive.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,1134.0,No,R,Mentioned,50585
+8,08_role_of_the_street_network_in_burglars_spatial_de.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,459.0,Yes,"R, Stata",Mentioned,104705
+9,09_discrete_choice_analysis_of_spatial_attack_sites_1.pdf,Multinomial Logit,None,11.0,,No,R,Mentioned,38520
+10,10_adolescent_offenders_current_whereabouts_predict.pdf,Not Clear,Likely Sampled (Large Choice Set),,165.0,No,"R, Stata",Mentioned,50295
+11,11_spatial_analysis_with_preference_specification_of.pdf,"Multinomial Logit, Other",Importance Sampling,,,No,R,Not Reported,46628
+12,12_modelling_the_spatial_decision_making_of_terrorist.pdf,"Multinomial Logit, Mixed Logit, Latent Class, Other",None,,890.0,Yes,"R, Stata, SAS",Mentioned,70914
+13,13_testing_ecological_theories_of_offender_spatial_de.pdf,"Multinomial Logit, Mixed Logit",None,,,Yes,"R, Stata",Mentioned,71942
+14,14_target_choice_during_extreme_events_a_discrete_sp.pdf,"Multinomial Logit, Mixed Logit",Not Clear,9.0,3914.0,No,"R, Stata",Mentioned,86635
+15,15_situating_crime_pattern_theory_into_the_explanation.pdf,"Mixed Logit, Other",Not Clear,,653.0,Yes,R,Mentioned,70942
+16,16_modelling_taste_heterogeneity_regarding_offence_lo.pdf,"Multinomial Logit, Mixed Logit, Latent Class",Not Clear,,309.0,No,"R, Stata",Mentioned,74646
+17,17_learning_where_to_offend_effects_of_past_on_future_burglary_locations.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,3337.0,No,R,Not Reported,64504
+18,18_how_do_residential_burglars_select_target_areas.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,89.0,No,"R, Stata",Mentioned,67761
+19,19_cooffending_and_the_choice_of_target_areas_in_bur.pdf,"Multinomial Logit, Mixed Logit",Not Clear,3.0,89.0,No,R,Mentioned,55699
+20,20_burglar_target_selection_a_cross_national_compari copy.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,,No,R,Not Reported,63304
+21,21_effect_attractiveness_opportunity_and_accessibility.pdf,Mixed Logit,Not Clear,,89.0,No,R,Mentioned,53623
+22,22_where_offenders_choose_to_attack_a_discrete_choice_model.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,844.0,No,"R, Stata",Mentioned,110092
+23,23_location_location_location_effects_of_neighbo.pdf,"Multinomial Logit, Mixed Logit, Nested Logit",Not Clear,,679.0,Yes,R,Not Reported,116763
+24,24_relative_difference_and_burglary_location.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,,Yes,"R, Stata",Not Reported,75685
+25,25_divergent_decision-making_in_context_neighborhood.pdf,"Multinomial Logit, Mixed Logit",Stratified Sampling,,1652.0,Yes,R,Mentioned,74142
+26,26_familiar_locations_and_similar_activities_examining.pdf,"Multinomial Logit, Mixed Logit",Random Sampling,17.0,50.0,No,R,Not Reported,68614
+27,27_traveling_alone_or_together_neighborhood_context.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,6846.0,Yes,"R, Stata",Not Reported,71981
+28,28_relationships_between_offenders_crime_locations.pdf,"Multinomial Logit, Mixed Logit",Importance Sampling,10.0,2153.0,Yes,R,Not Reported,75345
+29,29_crime_feeds_on_legal_activities_daily_mobility_fl.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,1000.0,Yes,R,Not Reported,85683
+30,30_assessing_the_influence_of_prior_on_subsequent_street_robbery_location_choices.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,872.0,No,"R, Stata",Not Reported,58508
+31,31_ambient_population_and_surveillance_cameras.pdf,"Multinomial Logit, Mixed Logit, Other",Not Clear,,4358.0,No,"R, Stata",Mentioned,76107
+32,32_do_migrant_and_native_robbers_target_different_places.pdf,Multinomial Logit,Not Clear,,4358.0,Yes,"R, Stata",Mentioned,57328
+33,33_do_juvenile_young_adult_and_adult_offenders_target_different_places.pdf,"Multinomial Logit, Mixed Logit, Other",Not Clear,,1971.0,No,R,Not Reported,58114
+34,34_awareness_x_opportunity_testing_interactions_betw.pdf,Multinomial Logit,Not Clear,,13088.0,Yes,R,Not Reported,70937
+35,35_the_importance_of_importance_sampling_exploring_m.pdf,"Multinomial Logit, Mixed Logit, Nested Logit",Importance Sampling,,227.0,Yes,R,Mentioned,80575
+36,37_location_choice_of_snatching_offenders_in_chennai.pdf,"Multinomial Logit, Mixed Logit",Stratified Sampling,,1573.0,Yes,R,Mentioned,72470
+37,38_the_influence_of_activity_space_and_visiting_frequ.pdf,Multinomial Logit,Likely Sampled (Large Choice Set),,449.0,Yes,R,Not Reported,70810
+38,39_right_place_right_time_making_crime_pattern_theory.pdf,Multinomial Logit,Not Clear,,71.0,Yes,R,Mentioned,52381
+39,40_burglars_blocked_by_barriers.pdf,"Multinomial Logit, Mixed Logit, Other",Random Sampling,,2643.0,Yes,"R, Stata",Not Reported,78656
+40,41_investigating_the_effect_of_people_on_the_street.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,1540.0,Yes,R,Mentioned,76398
+41,42_biting_once_twice_the_influence_of_prior_on_subs.pdf,Multinomial Logit,Not Clear,,3666.0,No,R,Not Reported,71245
+42,43_co-offenders_crime_location_choice.pdf,Multinomial Logit,Not Clear,,400.0,No,R,Not Reported,60991
+43,44_family_matters_effects_of_family_members_residen.pdf,Multinomial Logit,Not Clear,,7910.0,No,R,Not Reported,61693
+44,45_a_time_for_a_crime_temporal_aspects_of_repeat_off.pdf,Multinomial Logit,Not Clear,,10000.0,No,"R, Stata",Not Reported,70757
+45,46_a_sentimental_journey_to_crime_effects_of_reside.pdf,Multinomial Logit,Not Clear,,3784.0,No,R,Not Reported,79505
+46,47_modeling_micro-level_crime_location_choice_applic.pdf,"Multinomial Logit, Nested Logit, Other",Importance Sampling,,1871.0,Yes,"R, Stata",Not Reported,85260
+47,48_effects_of_residential_history_on_commercial_robbe.pdf,Multinomial Logit,Not Clear,,352.0,Yes,R,Not Reported,42567
+48,49_formal_evaluation_of_the_impact_of_barriers_and_connectors.pdf,"Multinomial Logit, Mixed Logit",None,,291.0,Yes,R,Mentioned,64187
+49,50_burglar_target_selection_a_cross_national_compari.pdf,"Multinomial Logit, Mixed Logit",Not Clear,,,No,R,Not Reported,63304
+50,51_target_selection_models_with_preference_variation.pdf,"Multinomial Logit, Mixed Logit, Other",Not Clear,,,Yes,R,Mentioned,67245
