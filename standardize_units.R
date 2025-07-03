@@ -58,3 +58,4 @@ print(table(df_data_clean$Size_group))
 write.csv(df_data_clean, "20250703_standardized_unit_sizes_with_groups.csv", row.names = FALSE, fileEncoding = "UTF-8")
 
 
+str(df_data_clean)
