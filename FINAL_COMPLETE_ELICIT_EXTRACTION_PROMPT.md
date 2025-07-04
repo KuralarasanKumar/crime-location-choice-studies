@@ -1,57 +1,72 @@
-# MAXIMUM EXTRACTION PROMPT FOR CRIME LOCATION CHOICE STUDIES
-## Extract Every Possible Detail - Think Like a Research Assistant Reading Every Table and Section
+# STRUCTURED ELICIT EXTRACTION PROMPT FOR CRIME LOCATION CHOICE STUDIES
+## Maximum Information Extraction - Optimized for CSV Parsing
 
-### EXTRACTION PHILOSOPHY
-You are a meticulous research assistant who reads EVERY section, table, and appendix. Your goal is to extract the MAXIMUM amount of information, especially variables, by looking in multiple places throughout the paper. Leave no stone unturned.
+### EXTRACTION INSTRUCTIONS
+You are extracting information from academic papers about crime location choice. Provide responses in the EXACT numbered format below. Each numbered item should contain ONE piece of information that will be placed in a separate CSV column.
 
-### COMPLETE EXTRACTION TEMPLATE
-For each study, provide ALL information in this exact structured format:
+### STRUCTURED EXTRACTION FORMAT
+Provide ALL information using these exact numbered fields:
 
----
+**BASIC STUDY INFORMATION:**
+1. [Study Title - Full paper title]
+2. [Publication Year - 4-digit year]
+3. [All Authors - Separated by semicolons]
+4. [Country - Where study was conducted]
+5. [City/Region - Specific location studied]
+6. [Crime Type - Primary crime analyzed]
+7. [Study Period - Years of data coverage]
 
-## STUDY IDENTIFICATION
-**Title:** [Full paper title]
-**Year:** [Publication year]
-**Authors:** [All authors, separated by semicolons]
+**SPATIAL ANALYSIS DETAILS:**
+8. [Spatial Unit Type - e.g., Census tract, Grid cell, Block group]
+9. [Spatial Unit Size - With units, e.g., "0.5 km²", "500m x 500m"]
+10. [Number of Spatial Units - Total count]
+11. [Study Area Size - Total area with units]
+12. [Population per Unit - Average or range]
 
----
+**METHODOLOGY:**
+13. [Study Design - Cross-sectional, longitudinal, etc.]
+14. [Statistical Method - Primary analytical approach]
+15. [Model Type - Specific model used]
+16. [Sample Size - Number of observations/events]
+17. [Software Used - Statistical software]
 
-## STUDY CONTEXT
-**Country:** [Country where study was conducted]
-**City/Region:** [Specific city or region studied]
-**Study Area Size:** [Total area in km² or other units - extract exact value]
-**Study Area Description:** [Brief description of geographic scope]
-**Crime Type:** [Primary crime type analyzed - be specific]
-**Crime Types (All):** [All crime types if multiple, separated by semicolons]
-**Study Period:** [Time period of data - years covered]
-**Data Sources:** [All data sources used, separated by semicolons]
+**VARIABLE COUNTS BY CATEGORY:**
+18. [Total Independent Variables - Number]
+19. [Demographic Variables Count - Number]
+20. [Economic Variables Count - Number] 
+21. [Land Use Variables Count - Number]
+22. [Infrastructure Variables Count - Number]
+23. [Distance/Accessibility Variables Count - Number]
+24. [Crime Opportunity Variables Count - Number]
+25. [Social/Behavioral Variables Count - Number]
+26. [Environmental Variables Count - Number]
+27. [Temporal/Control Variables Count - Number]
+28. [Jurisdiction/Policy Variables Count - Number]
+29. [Other Variables Count - Number]
 
----
+**COMPLETE VARIABLE LISTS:**
+30. [Demographic Variables - List all variables separated by semicolons]
+31. [Economic Variables - List all variables separated by semicolons]
+32. [Land Use Variables - List all variables separated by semicolons]
+33. [Infrastructure Variables - List all variables separated by semicolons]
+34. [Distance/Accessibility Variables - List all variables separated by semicolons]
+35. [Crime Opportunity Variables - List all variables separated by semicolons]
+36. [Social/Behavioral Variables - List all variables separated by semicolons]
+37. [Environmental Variables - List all variables separated by semicolons]
+38. [Temporal/Control Variables - List all variables separated by semicolons]
+39. [Jurisdiction/Policy Variables - List all variables separated by semicolons]
+40. [Other Variables - List all variables separated by semicolons]
 
-## SPATIAL UNIT OF ANALYSIS (SUoA)
-**SUoA Type:** [e.g., Census tract, Block group, Grid cell, Administrative unit]
-**SUoA Size:** [Exact size with units - e.g., "500m x 500m", "0.25 km²", "varies 0.1-2.5 km²"]
-**SUoA Description:** [Detailed description of spatial units used]
-**Number of Units:** [Total number of spatial units in study]
-**Population per Unit:** [Average or range of population per unit]
-**Justification for SUoA Choice:** [Reasons given for choosing this spatial scale]
+**DATA SOURCES & QUALITY:**
+41. [Data Sources - All sources separated by semicolons]
+42. [Key Findings - Brief summary of main results]
+43. [Significant Predictors - Variables with significant effects]
+44. [Model Performance - R², log-likelihood, or other fit measures]
+45. [Variable Information Quality - Complete/Partial/Limited]
+46. [Missing Information - What could not be extracted]
+47. [Extraction Confidence - High/Medium/Low]
 
----
-
-## METHODOLOGY
-**Study Design:** [Cross-sectional, longitudinal, etc.]
-**Statistical Method:** [Primary analytical method - be specific about model type]
-**Model Type:** [Discrete choice model type - conditional logit, multinomial logit, etc.]
-**Software Used:** [Statistical software mentioned]
-**Sampling Approach:** [How spatial units or alternatives were sampled]
-**Sample Size:** [Number of choice observations or events]
-**Choice Set Definition:** [How choice sets were constructed]
-**Estimation Method:** [Maximum likelihood, Bayesian, etc.]
-
----
-
-## COMPLETE INDIVIDUAL VARIABLE LIST
-Please list EVERY individual independent variable mentioned in the study, using this exact format:
+### VARIABLE EXTRACTION INSTRUCTIONS:
 
 **DEMOGRAPHIC VARIABLES:**
 [List each variable: Variable_Name | Description | Unit | Data_Source]
